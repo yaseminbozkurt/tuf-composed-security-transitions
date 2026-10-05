@@ -1,0 +1,2134 @@
+[
+  {
+    "sequence_id": "SEQ-8d5b753e2190",
+    "family": "F4",
+    "case_label": "PAIR-DELEGATION_CREATE-DELEGATION_REMOVE",
+    "origin": "TSTM_GENERATED",
+    "generation_method": "MECHANICAL_FULL_ALPHABET",
+    "transitions": [
+      {
+        "step_index": 0,
+        "transition_type": "DELEGATION_CREATE",
+        "parameters": {},
+        "counts_toward_k": true
+      },
+      {
+        "step_index": 1,
+        "transition_type": "DELEGATION_REMOVE",
+        "parameters": {},
+        "counts_toward_k": true
+      }
+    ],
+    "length": 2,
+    "oracle_properties": [],
+    "initial_state": {
+      "R_v": 1,
+      "R_K": [
+        "root_key_0"
+      ],
+      "R_t": 1,
+      "T_v": 1,
+      "S_v": 1,
+      "G_v": 1,
+      "D": "DELEGATION_ABSENT",
+      "E": "EXPIRATION_VALID"
+    },
+    "expected_state_trace": [],
+    "boundary_states": [],
+    "c2_pairs": [
+      "DELEGATION_CREATE->DELEGATION_REMOVE"
+    ],
+    "c3_triples": []
+  },
+  {
+    "sequence_id": "SEQ-52dcbe80d347",
+    "family": "F3",
+    "case_label": "PAIR-DELEGATION_CREATE-EXPIRE",
+    "origin": "TSTM_GENERATED",
+    "generation_method": "MECHANICAL_FULL_ALPHABET",
+    "transitions": [
+      {
+        "step_index": 0,
+        "transition_type": "DELEGATION_CREATE",
+        "parameters": {},
+        "counts_toward_k": true
+      },
+      {
+        "step_index": 1,
+        "transition_type": "EXPIRE",
+        "parameters": {},
+        "counts_toward_k": true
+      }
+    ],
+    "length": 2,
+    "oracle_properties": [],
+    "initial_state": {
+      "R_v": 1,
+      "R_K": [
+        "root_key_0"
+      ],
+      "R_t": 1,
+      "T_v": 1,
+      "S_v": 1,
+      "G_v": 1,
+      "D": "DELEGATION_ABSENT",
+      "E": "EXPIRATION_VALID"
+    },
+    "expected_state_trace": [],
+    "boundary_states": [],
+    "c2_pairs": [
+      "DELEGATION_CREATE->EXPIRE"
+    ],
+    "c3_triples": []
+  },
+  {
+    "sequence_id": "SEQ-50905676f679",
+    "family": "F1",
+    "case_label": "PAIR-DELEGATION_CREATE-ROOT_ROTATE_INSUF_THRESHOLD",
+    "origin": "TSTM_GENERATED",
+    "generation_method": "MECHANICAL_FULL_ALPHABET",
+    "transitions": [
+      {
+        "step_index": 0,
+        "transition_type": "DELEGATION_CREATE",
+        "parameters": {},
+        "counts_toward_k": true
+      },
+      {
+        "step_index": 1,
+        "transition_type": "ROOT_ROTATE_INSUF_THRESHOLD",
+        "parameters": {},
+        "counts_toward_k": true
+      }
+    ],
+    "length": 2,
+    "oracle_properties": [],
+    "initial_state": {
+      "R_v": 1,
+      "R_K": [
+        "root_key_0"
+      ],
+      "R_t": 1,
+      "T_v": 1,
+      "S_v": 1,
+      "G_v": 1,
+      "D": "DELEGATION_ABSENT",
+      "E": "EXPIRATION_VALID"
+    },
+    "expected_state_trace": [],
+    "boundary_states": [],
+    "c2_pairs": [
+      "DELEGATION_CREATE->ROOT_ROTATE_INSUF_THRESHOLD"
+    ],
+    "c3_triples": []
+  },
+  {
+    "sequence_id": "SEQ-d309ed5d9cd6",
+    "family": "F1",
+    "case_label": "PAIR-DELEGATION_CREATE-ROOT_ROTATE_SKIP",
+    "origin": "TSTM_GENERATED",
+    "generation_method": "MECHANICAL_FULL_ALPHABET",
+    "transitions": [
+      {
+        "step_index": 0,
+        "transition_type": "DELEGATION_CREATE",
+        "parameters": {},
+        "counts_toward_k": true
+      },
+      {
+        "step_index": 1,
+        "transition_type": "ROOT_ROTATE_SKIP",
+        "parameters": {},
+        "counts_toward_k": true
+      }
+    ],
+    "length": 2,
+    "oracle_properties": [],
+    "initial_state": {
+      "R_v": 1,
+      "R_K": [
+        "root_key_0"
+      ],
+      "R_t": 1,
+      "T_v": 1,
+      "S_v": 1,
+      "G_v": 1,
+      "D": "DELEGATION_ABSENT",
+      "E": "EXPIRATION_VALID"
+    },
+    "expected_state_trace": [],
+    "boundary_states": [],
+    "c2_pairs": [
+      "DELEGATION_CREATE->ROOT_ROTATE_SKIP"
+    ],
+    "c3_triples": []
+  },
+  {
+    "sequence_id": "SEQ-db58358c4733",
+    "family": "F1",
+    "case_label": "PAIR-DELEGATION_CREATE-ROOT_ROTATE_VALID",
+    "origin": "TSTM_GENERATED",
+    "generation_method": "MECHANICAL_FULL_ALPHABET",
+    "transitions": [
+      {
+        "step_index": 0,
+        "transition_type": "DELEGATION_CREATE",
+        "parameters": {},
+        "counts_toward_k": true
+      },
+      {
+        "step_index": 1,
+        "transition_type": "ROOT_ROTATE_VALID",
+        "parameters": {},
+        "counts_toward_k": true
+      }
+    ],
+    "length": 2,
+    "oracle_properties": [],
+    "initial_state": {
+      "R_v": 1,
+      "R_K": [
+        "root_key_0"
+      ],
+      "R_t": 1,
+      "T_v": 1,
+      "S_v": 1,
+      "G_v": 1,
+      "D": "DELEGATION_ABSENT",
+      "E": "EXPIRATION_VALID"
+    },
+    "expected_state_trace": [],
+    "boundary_states": [],
+    "c2_pairs": [
+      "DELEGATION_CREATE->ROOT_ROTATE_VALID"
+    ],
+    "c3_triples": []
+  },
+  {
+    "sequence_id": "SEQ-11ac4e8f99de",
+    "family": "F3",
+    "case_label": "PAIR-DELEGATION_CREATE-SNAPSHOT_ADVANCE",
+    "origin": "TSTM_GENERATED",
+    "generation_method": "MECHANICAL_FULL_ALPHABET",
+    "transitions": [
+      {
+        "step_index": 0,
+        "transition_type": "DELEGATION_CREATE",
+        "parameters": {},
+        "counts_toward_k": true
+      },
+      {
+        "step_index": 1,
+        "transition_type": "SNAPSHOT_ADVANCE",
+        "parameters": {},
+        "counts_toward_k": true
+      }
+    ],
+    "length": 2,
+    "oracle_properties": [],
+    "initial_state": {
+      "R_v": 1,
+      "R_K": [
+        "root_key_0"
+      ],
+      "R_t": 1,
+      "T_v": 1,
+      "S_v": 1,
+      "G_v": 1,
+      "D": "DELEGATION_ABSENT",
+      "E": "EXPIRATION_VALID"
+    },
+    "expected_state_trace": [],
+    "boundary_states": [],
+    "c2_pairs": [
+      "DELEGATION_CREATE->SNAPSHOT_ADVANCE"
+    ],
+    "c3_triples": []
+  },
+  {
+    "sequence_id": "SEQ-d74cbf22ee16",
+    "family": "F3",
+    "case_label": "PAIR-DELEGATION_CREATE-TIMESTAMP_ADVANCE",
+    "origin": "TSTM_GENERATED",
+    "generation_method": "MECHANICAL_FULL_ALPHABET",
+    "transitions": [
+      {
+        "step_index": 0,
+        "transition_type": "DELEGATION_CREATE",
+        "parameters": {},
+        "counts_toward_k": true
+      },
+      {
+        "step_index": 1,
+        "transition_type": "TIMESTAMP_ADVANCE",
+        "parameters": {},
+        "counts_toward_k": true
+      }
+    ],
+    "length": 2,
+    "oracle_properties": [],
+    "initial_state": {
+      "R_v": 1,
+      "R_K": [
+        "root_key_0"
+      ],
+      "R_t": 1,
+      "T_v": 1,
+      "S_v": 1,
+      "G_v": 1,
+      "D": "DELEGATION_ABSENT",
+      "E": "EXPIRATION_VALID"
+    },
+    "expected_state_trace": [],
+    "boundary_states": [],
+    "c2_pairs": [
+      "DELEGATION_CREATE->TIMESTAMP_ADVANCE"
+    ],
+    "c3_triples": []
+  },
+  {
+    "sequence_id": "SEQ-1cab63b1e6f8",
+    "family": "F4",
+    "case_label": "PAIR-EXPIRE-DELEGATION_CREATE",
+    "origin": "TSTM_GENERATED",
+    "generation_method": "MECHANICAL_FULL_ALPHABET",
+    "transitions": [
+      {
+        "step_index": 0,
+        "transition_type": "EXPIRE",
+        "parameters": {},
+        "counts_toward_k": true
+      },
+      {
+        "step_index": 1,
+        "transition_type": "DELEGATION_CREATE",
+        "parameters": {},
+        "counts_toward_k": true
+      }
+    ],
+    "length": 2,
+    "oracle_properties": [],
+    "initial_state": {
+      "R_v": 1,
+      "R_K": [
+        "root_key_0"
+      ],
+      "R_t": 1,
+      "T_v": 1,
+      "S_v": 1,
+      "G_v": 1,
+      "D": "DELEGATION_ABSENT",
+      "E": "EXPIRATION_VALID"
+    },
+    "expected_state_trace": [],
+    "boundary_states": [],
+    "c2_pairs": [
+      "EXPIRE->DELEGATION_CREATE"
+    ],
+    "c3_triples": []
+  },
+  {
+    "sequence_id": "SEQ-967dc2614fdc",
+    "family": "F3",
+    "case_label": "PAIR-EXPIRE-EXPIRE",
+    "origin": "TSTM_GENERATED",
+    "generation_method": "MECHANICAL_FULL_ALPHABET",
+    "transitions": [
+      {
+        "step_index": 0,
+        "transition_type": "EXPIRE",
+        "parameters": {},
+        "counts_toward_k": true
+      },
+      {
+        "step_index": 1,
+        "transition_type": "EXPIRE",
+        "parameters": {},
+        "counts_toward_k": true
+      }
+    ],
+    "length": 2,
+    "oracle_properties": [],
+    "initial_state": {
+      "R_v": 1,
+      "R_K": [
+        "root_key_0"
+      ],
+      "R_t": 1,
+      "T_v": 1,
+      "S_v": 1,
+      "G_v": 1,
+      "D": "DELEGATION_ABSENT",
+      "E": "EXPIRATION_VALID"
+    },
+    "expected_state_trace": [],
+    "boundary_states": [],
+    "c2_pairs": [
+      "EXPIRE->EXPIRE"
+    ],
+    "c3_triples": []
+  },
+  {
+    "sequence_id": "SEQ-c81ae9f309fd",
+    "family": "F1",
+    "case_label": "PAIR-EXPIRE-ROOT_ROTATE_INSUF_THRESHOLD",
+    "origin": "TSTM_GENERATED",
+    "generation_method": "MECHANICAL_FULL_ALPHABET",
+    "transitions": [
+      {
+        "step_index": 0,
+        "transition_type": "EXPIRE",
+        "parameters": {},
+        "counts_toward_k": true
+      },
+      {
+        "step_index": 1,
+        "transition_type": "ROOT_ROTATE_INSUF_THRESHOLD",
+        "parameters": {},
+        "counts_toward_k": true
+      }
+    ],
+    "length": 2,
+    "oracle_properties": [],
+    "initial_state": {
+      "R_v": 1,
+      "R_K": [
+        "root_key_0"
+      ],
+      "R_t": 1,
+      "T_v": 1,
+      "S_v": 1,
+      "G_v": 1,
+      "D": "DELEGATION_ABSENT",
+      "E": "EXPIRATION_VALID"
+    },
+    "expected_state_trace": [],
+    "boundary_states": [],
+    "c2_pairs": [
+      "EXPIRE->ROOT_ROTATE_INSUF_THRESHOLD"
+    ],
+    "c3_triples": []
+  },
+  {
+    "sequence_id": "SEQ-33e605194419",
+    "family": "F1",
+    "case_label": "PAIR-EXPIRE-ROOT_ROTATE_SKIP",
+    "origin": "TSTM_GENERATED",
+    "generation_method": "MECHANICAL_FULL_ALPHABET",
+    "transitions": [
+      {
+        "step_index": 0,
+        "transition_type": "EXPIRE",
+        "parameters": {},
+        "counts_toward_k": true
+      },
+      {
+        "step_index": 1,
+        "transition_type": "ROOT_ROTATE_SKIP",
+        "parameters": {},
+        "counts_toward_k": true
+      }
+    ],
+    "length": 2,
+    "oracle_properties": [],
+    "initial_state": {
+      "R_v": 1,
+      "R_K": [
+        "root_key_0"
+      ],
+      "R_t": 1,
+      "T_v": 1,
+      "S_v": 1,
+      "G_v": 1,
+      "D": "DELEGATION_ABSENT",
+      "E": "EXPIRATION_VALID"
+    },
+    "expected_state_trace": [],
+    "boundary_states": [],
+    "c2_pairs": [
+      "EXPIRE->ROOT_ROTATE_SKIP"
+    ],
+    "c3_triples": []
+  },
+  {
+    "sequence_id": "SEQ-23022027fcf7",
+    "family": "F1",
+    "case_label": "PAIR-EXPIRE-ROOT_ROTATE_VALID",
+    "origin": "TSTM_GENERATED",
+    "generation_method": "MECHANICAL_FULL_ALPHABET",
+    "transitions": [
+      {
+        "step_index": 0,
+        "transition_type": "EXPIRE",
+        "parameters": {},
+        "counts_toward_k": true
+      },
+      {
+        "step_index": 1,
+        "transition_type": "ROOT_ROTATE_VALID",
+        "parameters": {},
+        "counts_toward_k": true
+      }
+    ],
+    "length": 2,
+    "oracle_properties": [],
+    "initial_state": {
+      "R_v": 1,
+      "R_K": [
+        "root_key_0"
+      ],
+      "R_t": 1,
+      "T_v": 1,
+      "S_v": 1,
+      "G_v": 1,
+      "D": "DELEGATION_ABSENT",
+      "E": "EXPIRATION_VALID"
+    },
+    "expected_state_trace": [],
+    "boundary_states": [],
+    "c2_pairs": [
+      "EXPIRE->ROOT_ROTATE_VALID"
+    ],
+    "c3_triples": []
+  },
+  {
+    "sequence_id": "SEQ-0569efaeaa5c",
+    "family": "F3",
+    "case_label": "PAIR-EXPIRE-SNAPSHOT_ADVANCE",
+    "origin": "TSTM_GENERATED",
+    "generation_method": "MECHANICAL_FULL_ALPHABET",
+    "transitions": [
+      {
+        "step_index": 0,
+        "transition_type": "EXPIRE",
+        "parameters": {},
+        "counts_toward_k": true
+      },
+      {
+        "step_index": 1,
+        "transition_type": "SNAPSHOT_ADVANCE",
+        "parameters": {},
+        "counts_toward_k": true
+      }
+    ],
+    "length": 2,
+    "oracle_properties": [],
+    "initial_state": {
+      "R_v": 1,
+      "R_K": [
+        "root_key_0"
+      ],
+      "R_t": 1,
+      "T_v": 1,
+      "S_v": 1,
+      "G_v": 1,
+      "D": "DELEGATION_ABSENT",
+      "E": "EXPIRATION_VALID"
+    },
+    "expected_state_trace": [],
+    "boundary_states": [],
+    "c2_pairs": [
+      "EXPIRE->SNAPSHOT_ADVANCE"
+    ],
+    "c3_triples": []
+  },
+  {
+    "sequence_id": "SEQ-82f95589e173",
+    "family": "F3",
+    "case_label": "PAIR-EXPIRE-TIMESTAMP_ADVANCE",
+    "origin": "TSTM_GENERATED",
+    "generation_method": "MECHANICAL_FULL_ALPHABET",
+    "transitions": [
+      {
+        "step_index": 0,
+        "transition_type": "EXPIRE",
+        "parameters": {},
+        "counts_toward_k": true
+      },
+      {
+        "step_index": 1,
+        "transition_type": "TIMESTAMP_ADVANCE",
+        "parameters": {},
+        "counts_toward_k": true
+      }
+    ],
+    "length": 2,
+    "oracle_properties": [],
+    "initial_state": {
+      "R_v": 1,
+      "R_K": [
+        "root_key_0"
+      ],
+      "R_t": 1,
+      "T_v": 1,
+      "S_v": 1,
+      "G_v": 1,
+      "D": "DELEGATION_ABSENT",
+      "E": "EXPIRATION_VALID"
+    },
+    "expected_state_trace": [],
+    "boundary_states": [],
+    "c2_pairs": [
+      "EXPIRE->TIMESTAMP_ADVANCE"
+    ],
+    "c3_triples": []
+  },
+  {
+    "sequence_id": "SEQ-78200d50625d",
+    "family": "F4",
+    "case_label": "PAIR-ROOT_ROTATE_INSUF_THRESHOLD-DELEGATION_CREATE",
+    "origin": "TSTM_GENERATED",
+    "generation_method": "MECHANICAL_FULL_ALPHABET",
+    "transitions": [
+      {
+        "step_index": 0,
+        "transition_type": "ROOT_ROTATE_INSUF_THRESHOLD",
+        "parameters": {},
+        "counts_toward_k": true
+      },
+      {
+        "step_index": 1,
+        "transition_type": "DELEGATION_CREATE",
+        "parameters": {},
+        "counts_toward_k": true
+      }
+    ],
+    "length": 2,
+    "oracle_properties": [],
+    "initial_state": {
+      "R_v": 1,
+      "R_K": [
+        "root_key_0"
+      ],
+      "R_t": 1,
+      "T_v": 1,
+      "S_v": 1,
+      "G_v": 1,
+      "D": "DELEGATION_ABSENT",
+      "E": "EXPIRATION_VALID"
+    },
+    "expected_state_trace": [],
+    "boundary_states": [],
+    "c2_pairs": [
+      "ROOT_ROTATE_INSUF_THRESHOLD->DELEGATION_CREATE"
+    ],
+    "c3_triples": []
+  },
+  {
+    "sequence_id": "SEQ-520ac211bff6",
+    "family": "F3",
+    "case_label": "PAIR-ROOT_ROTATE_INSUF_THRESHOLD-EXPIRE",
+    "origin": "TSTM_GENERATED",
+    "generation_method": "MECHANICAL_FULL_ALPHABET",
+    "transitions": [
+      {
+        "step_index": 0,
+        "transition_type": "ROOT_ROTATE_INSUF_THRESHOLD",
+        "parameters": {},
+        "counts_toward_k": true
+      },
+      {
+        "step_index": 1,
+        "transition_type": "EXPIRE",
+        "parameters": {},
+        "counts_toward_k": true
+      }
+    ],
+    "length": 2,
+    "oracle_properties": [],
+    "initial_state": {
+      "R_v": 1,
+      "R_K": [
+        "root_key_0"
+      ],
+      "R_t": 1,
+      "T_v": 1,
+      "S_v": 1,
+      "G_v": 1,
+      "D": "DELEGATION_ABSENT",
+      "E": "EXPIRATION_VALID"
+    },
+    "expected_state_trace": [],
+    "boundary_states": [],
+    "c2_pairs": [
+      "ROOT_ROTATE_INSUF_THRESHOLD->EXPIRE"
+    ],
+    "c3_triples": []
+  },
+  {
+    "sequence_id": "SEQ-bad881f1ac2a",
+    "family": "F1",
+    "case_label": "PAIR-ROOT_ROTATE_INSUF_THRESHOLD-ROOT_ROTATE_INSUF_THRESHOLD",
+    "origin": "TSTM_GENERATED",
+    "generation_method": "MECHANICAL_FULL_ALPHABET",
+    "transitions": [
+      {
+        "step_index": 0,
+        "transition_type": "ROOT_ROTATE_INSUF_THRESHOLD",
+        "parameters": {},
+        "counts_toward_k": true
+      },
+      {
+        "step_index": 1,
+        "transition_type": "ROOT_ROTATE_INSUF_THRESHOLD",
+        "parameters": {},
+        "counts_toward_k": true
+      }
+    ],
+    "length": 2,
+    "oracle_properties": [],
+    "initial_state": {
+      "R_v": 1,
+      "R_K": [
+        "root_key_0"
+      ],
+      "R_t": 1,
+      "T_v": 1,
+      "S_v": 1,
+      "G_v": 1,
+      "D": "DELEGATION_ABSENT",
+      "E": "EXPIRATION_VALID"
+    },
+    "expected_state_trace": [],
+    "boundary_states": [],
+    "c2_pairs": [
+      "ROOT_ROTATE_INSUF_THRESHOLD->ROOT_ROTATE_INSUF_THRESHOLD"
+    ],
+    "c3_triples": []
+  },
+  {
+    "sequence_id": "SEQ-507a17a5eed1",
+    "family": "F1",
+    "case_label": "PAIR-ROOT_ROTATE_INSUF_THRESHOLD-ROOT_ROTATE_SKIP",
+    "origin": "TSTM_GENERATED",
+    "generation_method": "MECHANICAL_FULL_ALPHABET",
+    "transitions": [
+      {
+        "step_index": 0,
+        "transition_type": "ROOT_ROTATE_INSUF_THRESHOLD",
+        "parameters": {},
+        "counts_toward_k": true
+      },
+      {
+        "step_index": 1,
+        "transition_type": "ROOT_ROTATE_SKIP",
+        "parameters": {},
+        "counts_toward_k": true
+      }
+    ],
+    "length": 2,
+    "oracle_properties": [],
+    "initial_state": {
+      "R_v": 1,
+      "R_K": [
+        "root_key_0"
+      ],
+      "R_t": 1,
+      "T_v": 1,
+      "S_v": 1,
+      "G_v": 1,
+      "D": "DELEGATION_ABSENT",
+      "E": "EXPIRATION_VALID"
+    },
+    "expected_state_trace": [],
+    "boundary_states": [],
+    "c2_pairs": [
+      "ROOT_ROTATE_INSUF_THRESHOLD->ROOT_ROTATE_SKIP"
+    ],
+    "c3_triples": []
+  },
+  {
+    "sequence_id": "SEQ-c7bba63e804f",
+    "family": "F1",
+    "case_label": "PAIR-ROOT_ROTATE_INSUF_THRESHOLD-ROOT_ROTATE_VALID",
+    "origin": "TSTM_GENERATED",
+    "generation_method": "MECHANICAL_FULL_ALPHABET",
+    "transitions": [
+      {
+        "step_index": 0,
+        "transition_type": "ROOT_ROTATE_INSUF_THRESHOLD",
+        "parameters": {},
+        "counts_toward_k": true
+      },
+      {
+        "step_index": 1,
+        "transition_type": "ROOT_ROTATE_VALID",
+        "parameters": {},
+        "counts_toward_k": true
+      }
+    ],
+    "length": 2,
+    "oracle_properties": [],
+    "initial_state": {
+      "R_v": 1,
+      "R_K": [
+        "root_key_0"
+      ],
+      "R_t": 1,
+      "T_v": 1,
+      "S_v": 1,
+      "G_v": 1,
+      "D": "DELEGATION_ABSENT",
+      "E": "EXPIRATION_VALID"
+    },
+    "expected_state_trace": [],
+    "boundary_states": [],
+    "c2_pairs": [
+      "ROOT_ROTATE_INSUF_THRESHOLD->ROOT_ROTATE_VALID"
+    ],
+    "c3_triples": []
+  },
+  {
+    "sequence_id": "SEQ-815eed854e8f",
+    "family": "F3",
+    "case_label": "PAIR-ROOT_ROTATE_INSUF_THRESHOLD-SNAPSHOT_ADVANCE",
+    "origin": "TSTM_GENERATED",
+    "generation_method": "MECHANICAL_FULL_ALPHABET",
+    "transitions": [
+      {
+        "step_index": 0,
+        "transition_type": "ROOT_ROTATE_INSUF_THRESHOLD",
+        "parameters": {},
+        "counts_toward_k": true
+      },
+      {
+        "step_index": 1,
+        "transition_type": "SNAPSHOT_ADVANCE",
+        "parameters": {},
+        "counts_toward_k": true
+      }
+    ],
+    "length": 2,
+    "oracle_properties": [],
+    "initial_state": {
+      "R_v": 1,
+      "R_K": [
+        "root_key_0"
+      ],
+      "R_t": 1,
+      "T_v": 1,
+      "S_v": 1,
+      "G_v": 1,
+      "D": "DELEGATION_ABSENT",
+      "E": "EXPIRATION_VALID"
+    },
+    "expected_state_trace": [],
+    "boundary_states": [],
+    "c2_pairs": [
+      "ROOT_ROTATE_INSUF_THRESHOLD->SNAPSHOT_ADVANCE"
+    ],
+    "c3_triples": []
+  },
+  {
+    "sequence_id": "SEQ-c67edb601432",
+    "family": "F3",
+    "case_label": "PAIR-ROOT_ROTATE_INSUF_THRESHOLD-TIMESTAMP_ADVANCE",
+    "origin": "TSTM_GENERATED",
+    "generation_method": "MECHANICAL_FULL_ALPHABET",
+    "transitions": [
+      {
+        "step_index": 0,
+        "transition_type": "ROOT_ROTATE_INSUF_THRESHOLD",
+        "parameters": {},
+        "counts_toward_k": true
+      },
+      {
+        "step_index": 1,
+        "transition_type": "TIMESTAMP_ADVANCE",
+        "parameters": {},
+        "counts_toward_k": true
+      }
+    ],
+    "length": 2,
+    "oracle_properties": [],
+    "initial_state": {
+      "R_v": 1,
+      "R_K": [
+        "root_key_0"
+      ],
+      "R_t": 1,
+      "T_v": 1,
+      "S_v": 1,
+      "G_v": 1,
+      "D": "DELEGATION_ABSENT",
+      "E": "EXPIRATION_VALID"
+    },
+    "expected_state_trace": [],
+    "boundary_states": [],
+    "c2_pairs": [
+      "ROOT_ROTATE_INSUF_THRESHOLD->TIMESTAMP_ADVANCE"
+    ],
+    "c3_triples": []
+  },
+  {
+    "sequence_id": "SEQ-f5bdc26bb294",
+    "family": "F4",
+    "case_label": "PAIR-ROOT_ROTATE_SKIP-DELEGATION_CREATE",
+    "origin": "TSTM_GENERATED",
+    "generation_method": "MECHANICAL_FULL_ALPHABET",
+    "transitions": [
+      {
+        "step_index": 0,
+        "transition_type": "ROOT_ROTATE_SKIP",
+        "parameters": {},
+        "counts_toward_k": true
+      },
+      {
+        "step_index": 1,
+        "transition_type": "DELEGATION_CREATE",
+        "parameters": {},
+        "counts_toward_k": true
+      }
+    ],
+    "length": 2,
+    "oracle_properties": [],
+    "initial_state": {
+      "R_v": 1,
+      "R_K": [
+        "root_key_0"
+      ],
+      "R_t": 1,
+      "T_v": 1,
+      "S_v": 1,
+      "G_v": 1,
+      "D": "DELEGATION_ABSENT",
+      "E": "EXPIRATION_VALID"
+    },
+    "expected_state_trace": [],
+    "boundary_states": [],
+    "c2_pairs": [
+      "ROOT_ROTATE_SKIP->DELEGATION_CREATE"
+    ],
+    "c3_triples": []
+  },
+  {
+    "sequence_id": "SEQ-42a01e25b476",
+    "family": "F3",
+    "case_label": "PAIR-ROOT_ROTATE_SKIP-EXPIRE",
+    "origin": "TSTM_GENERATED",
+    "generation_method": "MECHANICAL_FULL_ALPHABET",
+    "transitions": [
+      {
+        "step_index": 0,
+        "transition_type": "ROOT_ROTATE_SKIP",
+        "parameters": {},
+        "counts_toward_k": true
+      },
+      {
+        "step_index": 1,
+        "transition_type": "EXPIRE",
+        "parameters": {},
+        "counts_toward_k": true
+      }
+    ],
+    "length": 2,
+    "oracle_properties": [],
+    "initial_state": {
+      "R_v": 1,
+      "R_K": [
+        "root_key_0"
+      ],
+      "R_t": 1,
+      "T_v": 1,
+      "S_v": 1,
+      "G_v": 1,
+      "D": "DELEGATION_ABSENT",
+      "E": "EXPIRATION_VALID"
+    },
+    "expected_state_trace": [],
+    "boundary_states": [],
+    "c2_pairs": [
+      "ROOT_ROTATE_SKIP->EXPIRE"
+    ],
+    "c3_triples": []
+  },
+  {
+    "sequence_id": "SEQ-0f593a980bca",
+    "family": "F1",
+    "case_label": "PAIR-ROOT_ROTATE_SKIP-ROOT_ROTATE_INSUF_THRESHOLD",
+    "origin": "TSTM_GENERATED",
+    "generation_method": "MECHANICAL_FULL_ALPHABET",
+    "transitions": [
+      {
+        "step_index": 0,
+        "transition_type": "ROOT_ROTATE_SKIP",
+        "parameters": {},
+        "counts_toward_k": true
+      },
+      {
+        "step_index": 1,
+        "transition_type": "ROOT_ROTATE_INSUF_THRESHOLD",
+        "parameters": {},
+        "counts_toward_k": true
+      }
+    ],
+    "length": 2,
+    "oracle_properties": [],
+    "initial_state": {
+      "R_v": 1,
+      "R_K": [
+        "root_key_0"
+      ],
+      "R_t": 1,
+      "T_v": 1,
+      "S_v": 1,
+      "G_v": 1,
+      "D": "DELEGATION_ABSENT",
+      "E": "EXPIRATION_VALID"
+    },
+    "expected_state_trace": [],
+    "boundary_states": [],
+    "c2_pairs": [
+      "ROOT_ROTATE_SKIP->ROOT_ROTATE_INSUF_THRESHOLD"
+    ],
+    "c3_triples": []
+  },
+  {
+    "sequence_id": "SEQ-baf32ed7926e",
+    "family": "F1",
+    "case_label": "PAIR-ROOT_ROTATE_SKIP-ROOT_ROTATE_SKIP",
+    "origin": "TSTM_GENERATED",
+    "generation_method": "MECHANICAL_FULL_ALPHABET",
+    "transitions": [
+      {
+        "step_index": 0,
+        "transition_type": "ROOT_ROTATE_SKIP",
+        "parameters": {},
+        "counts_toward_k": true
+      },
+      {
+        "step_index": 1,
+        "transition_type": "ROOT_ROTATE_SKIP",
+        "parameters": {},
+        "counts_toward_k": true
+      }
+    ],
+    "length": 2,
+    "oracle_properties": [],
+    "initial_state": {
+      "R_v": 1,
+      "R_K": [
+        "root_key_0"
+      ],
+      "R_t": 1,
+      "T_v": 1,
+      "S_v": 1,
+      "G_v": 1,
+      "D": "DELEGATION_ABSENT",
+      "E": "EXPIRATION_VALID"
+    },
+    "expected_state_trace": [],
+    "boundary_states": [],
+    "c2_pairs": [
+      "ROOT_ROTATE_SKIP->ROOT_ROTATE_SKIP"
+    ],
+    "c3_triples": []
+  },
+  {
+    "sequence_id": "SEQ-7d66e890ab3a",
+    "family": "F1",
+    "case_label": "PAIR-ROOT_ROTATE_SKIP-ROOT_ROTATE_VALID",
+    "origin": "TSTM_GENERATED",
+    "generation_method": "MECHANICAL_FULL_ALPHABET",
+    "transitions": [
+      {
+        "step_index": 0,
+        "transition_type": "ROOT_ROTATE_SKIP",
+        "parameters": {},
+        "counts_toward_k": true
+      },
+      {
+        "step_index": 1,
+        "transition_type": "ROOT_ROTATE_VALID",
+        "parameters": {},
+        "counts_toward_k": true
+      }
+    ],
+    "length": 2,
+    "oracle_properties": [],
+    "initial_state": {
+      "R_v": 1,
+      "R_K": [
+        "root_key_0"
+      ],
+      "R_t": 1,
+      "T_v": 1,
+      "S_v": 1,
+      "G_v": 1,
+      "D": "DELEGATION_ABSENT",
+      "E": "EXPIRATION_VALID"
+    },
+    "expected_state_trace": [],
+    "boundary_states": [],
+    "c2_pairs": [
+      "ROOT_ROTATE_SKIP->ROOT_ROTATE_VALID"
+    ],
+    "c3_triples": []
+  },
+  {
+    "sequence_id": "SEQ-371556280f49",
+    "family": "F3",
+    "case_label": "PAIR-ROOT_ROTATE_SKIP-SNAPSHOT_ADVANCE",
+    "origin": "TSTM_GENERATED",
+    "generation_method": "MECHANICAL_FULL_ALPHABET",
+    "transitions": [
+      {
+        "step_index": 0,
+        "transition_type": "ROOT_ROTATE_SKIP",
+        "parameters": {},
+        "counts_toward_k": true
+      },
+      {
+        "step_index": 1,
+        "transition_type": "SNAPSHOT_ADVANCE",
+        "parameters": {},
+        "counts_toward_k": true
+      }
+    ],
+    "length": 2,
+    "oracle_properties": [],
+    "initial_state": {
+      "R_v": 1,
+      "R_K": [
+        "root_key_0"
+      ],
+      "R_t": 1,
+      "T_v": 1,
+      "S_v": 1,
+      "G_v": 1,
+      "D": "DELEGATION_ABSENT",
+      "E": "EXPIRATION_VALID"
+    },
+    "expected_state_trace": [],
+    "boundary_states": [],
+    "c2_pairs": [
+      "ROOT_ROTATE_SKIP->SNAPSHOT_ADVANCE"
+    ],
+    "c3_triples": []
+  },
+  {
+    "sequence_id": "SEQ-0780513a0086",
+    "family": "F3",
+    "case_label": "PAIR-ROOT_ROTATE_SKIP-TIMESTAMP_ADVANCE",
+    "origin": "TSTM_GENERATED",
+    "generation_method": "MECHANICAL_FULL_ALPHABET",
+    "transitions": [
+      {
+        "step_index": 0,
+        "transition_type": "ROOT_ROTATE_SKIP",
+        "parameters": {},
+        "counts_toward_k": true
+      },
+      {
+        "step_index": 1,
+        "transition_type": "TIMESTAMP_ADVANCE",
+        "parameters": {},
+        "counts_toward_k": true
+      }
+    ],
+    "length": 2,
+    "oracle_properties": [],
+    "initial_state": {
+      "R_v": 1,
+      "R_K": [
+        "root_key_0"
+      ],
+      "R_t": 1,
+      "T_v": 1,
+      "S_v": 1,
+      "G_v": 1,
+      "D": "DELEGATION_ABSENT",
+      "E": "EXPIRATION_VALID"
+    },
+    "expected_state_trace": [],
+    "boundary_states": [],
+    "c2_pairs": [
+      "ROOT_ROTATE_SKIP->TIMESTAMP_ADVANCE"
+    ],
+    "c3_triples": []
+  },
+  {
+    "sequence_id": "SEQ-269e3f4ed4e6",
+    "family": "F4",
+    "case_label": "PAIR-ROOT_ROTATE_VALID-DELEGATION_CREATE",
+    "origin": "TSTM_GENERATED",
+    "generation_method": "MECHANICAL_FULL_ALPHABET",
+    "transitions": [
+      {
+        "step_index": 0,
+        "transition_type": "ROOT_ROTATE_VALID",
+        "parameters": {},
+        "counts_toward_k": true
+      },
+      {
+        "step_index": 1,
+        "transition_type": "DELEGATION_CREATE",
+        "parameters": {},
+        "counts_toward_k": true
+      }
+    ],
+    "length": 2,
+    "oracle_properties": [],
+    "initial_state": {
+      "R_v": 1,
+      "R_K": [
+        "root_key_0"
+      ],
+      "R_t": 1,
+      "T_v": 1,
+      "S_v": 1,
+      "G_v": 1,
+      "D": "DELEGATION_ABSENT",
+      "E": "EXPIRATION_VALID"
+    },
+    "expected_state_trace": [],
+    "boundary_states": [],
+    "c2_pairs": [
+      "ROOT_ROTATE_VALID->DELEGATION_CREATE"
+    ],
+    "c3_triples": []
+  },
+  {
+    "sequence_id": "SEQ-6d98596fdf03",
+    "family": "F3",
+    "case_label": "PAIR-ROOT_ROTATE_VALID-EXPIRE",
+    "origin": "TSTM_GENERATED",
+    "generation_method": "MECHANICAL_FULL_ALPHABET",
+    "transitions": [
+      {
+        "step_index": 0,
+        "transition_type": "ROOT_ROTATE_VALID",
+        "parameters": {},
+        "counts_toward_k": true
+      },
+      {
+        "step_index": 1,
+        "transition_type": "EXPIRE",
+        "parameters": {},
+        "counts_toward_k": true
+      }
+    ],
+    "length": 2,
+    "oracle_properties": [],
+    "initial_state": {
+      "R_v": 1,
+      "R_K": [
+        "root_key_0"
+      ],
+      "R_t": 1,
+      "T_v": 1,
+      "S_v": 1,
+      "G_v": 1,
+      "D": "DELEGATION_ABSENT",
+      "E": "EXPIRATION_VALID"
+    },
+    "expected_state_trace": [],
+    "boundary_states": [],
+    "c2_pairs": [
+      "ROOT_ROTATE_VALID->EXPIRE"
+    ],
+    "c3_triples": []
+  },
+  {
+    "sequence_id": "SEQ-cef8b7418a8e",
+    "family": "F5",
+    "case_label": "PAIR-ROOT_ROTATE_VALID-METADATA_BY_REMOVED_KEY",
+    "origin": "TSTM_GENERATED",
+    "generation_method": "MECHANICAL_FULL_ALPHABET",
+    "transitions": [
+      {
+        "step_index": 0,
+        "transition_type": "ROOT_ROTATE_VALID",
+        "parameters": {},
+        "counts_toward_k": true
+      },
+      {
+        "step_index": 1,
+        "transition_type": "METADATA_BY_REMOVED_KEY",
+        "parameters": {},
+        "counts_toward_k": true
+      }
+    ],
+    "length": 2,
+    "oracle_properties": [],
+    "initial_state": {
+      "R_v": 1,
+      "R_K": [
+        "root_key_0"
+      ],
+      "R_t": 1,
+      "T_v": 1,
+      "S_v": 1,
+      "G_v": 1,
+      "D": "DELEGATION_ABSENT",
+      "E": "EXPIRATION_VALID"
+    },
+    "expected_state_trace": [],
+    "boundary_states": [],
+    "c2_pairs": [
+      "ROOT_ROTATE_VALID->METADATA_BY_REMOVED_KEY"
+    ],
+    "c3_triples": []
+  },
+  {
+    "sequence_id": "SEQ-378326e15b03",
+    "family": "F1",
+    "case_label": "PAIR-ROOT_ROTATE_VALID-ROOT_ROTATE_INSUF_THRESHOLD",
+    "origin": "TSTM_GENERATED",
+    "generation_method": "MECHANICAL_FULL_ALPHABET",
+    "transitions": [
+      {
+        "step_index": 0,
+        "transition_type": "ROOT_ROTATE_VALID",
+        "parameters": {},
+        "counts_toward_k": true
+      },
+      {
+        "step_index": 1,
+        "transition_type": "ROOT_ROTATE_INSUF_THRESHOLD",
+        "parameters": {},
+        "counts_toward_k": true
+      }
+    ],
+    "length": 2,
+    "oracle_properties": [],
+    "initial_state": {
+      "R_v": 1,
+      "R_K": [
+        "root_key_0"
+      ],
+      "R_t": 1,
+      "T_v": 1,
+      "S_v": 1,
+      "G_v": 1,
+      "D": "DELEGATION_ABSENT",
+      "E": "EXPIRATION_VALID"
+    },
+    "expected_state_trace": [],
+    "boundary_states": [],
+    "c2_pairs": [
+      "ROOT_ROTATE_VALID->ROOT_ROTATE_INSUF_THRESHOLD"
+    ],
+    "c3_triples": []
+  },
+  {
+    "sequence_id": "SEQ-1cda546d357e",
+    "family": "F1",
+    "case_label": "PAIR-ROOT_ROTATE_VALID-ROOT_ROTATE_SKIP",
+    "origin": "TSTM_GENERATED",
+    "generation_method": "MECHANICAL_FULL_ALPHABET",
+    "transitions": [
+      {
+        "step_index": 0,
+        "transition_type": "ROOT_ROTATE_VALID",
+        "parameters": {},
+        "counts_toward_k": true
+      },
+      {
+        "step_index": 1,
+        "transition_type": "ROOT_ROTATE_SKIP",
+        "parameters": {},
+        "counts_toward_k": true
+      }
+    ],
+    "length": 2,
+    "oracle_properties": [],
+    "initial_state": {
+      "R_v": 1,
+      "R_K": [
+        "root_key_0"
+      ],
+      "R_t": 1,
+      "T_v": 1,
+      "S_v": 1,
+      "G_v": 1,
+      "D": "DELEGATION_ABSENT",
+      "E": "EXPIRATION_VALID"
+    },
+    "expected_state_trace": [],
+    "boundary_states": [],
+    "c2_pairs": [
+      "ROOT_ROTATE_VALID->ROOT_ROTATE_SKIP"
+    ],
+    "c3_triples": []
+  },
+  {
+    "sequence_id": "SEQ-f72973cf97c5",
+    "family": "F1",
+    "case_label": "PAIR-ROOT_ROTATE_VALID-ROOT_ROTATE_VALID",
+    "origin": "TSTM_GENERATED",
+    "generation_method": "MECHANICAL_FULL_ALPHABET",
+    "transitions": [
+      {
+        "step_index": 0,
+        "transition_type": "ROOT_ROTATE_VALID",
+        "parameters": {},
+        "counts_toward_k": true
+      },
+      {
+        "step_index": 1,
+        "transition_type": "ROOT_ROTATE_VALID",
+        "parameters": {},
+        "counts_toward_k": true
+      }
+    ],
+    "length": 2,
+    "oracle_properties": [],
+    "initial_state": {
+      "R_v": 1,
+      "R_K": [
+        "root_key_0"
+      ],
+      "R_t": 1,
+      "T_v": 1,
+      "S_v": 1,
+      "G_v": 1,
+      "D": "DELEGATION_ABSENT",
+      "E": "EXPIRATION_VALID"
+    },
+    "expected_state_trace": [],
+    "boundary_states": [],
+    "c2_pairs": [
+      "ROOT_ROTATE_VALID->ROOT_ROTATE_VALID"
+    ],
+    "c3_triples": []
+  },
+  {
+    "sequence_id": "SEQ-c413734fdaca",
+    "family": "F3",
+    "case_label": "PAIR-ROOT_ROTATE_VALID-SNAPSHOT_ADVANCE",
+    "origin": "TSTM_GENERATED",
+    "generation_method": "MECHANICAL_FULL_ALPHABET",
+    "transitions": [
+      {
+        "step_index": 0,
+        "transition_type": "ROOT_ROTATE_VALID",
+        "parameters": {},
+        "counts_toward_k": true
+      },
+      {
+        "step_index": 1,
+        "transition_type": "SNAPSHOT_ADVANCE",
+        "parameters": {},
+        "counts_toward_k": true
+      }
+    ],
+    "length": 2,
+    "oracle_properties": [],
+    "initial_state": {
+      "R_v": 1,
+      "R_K": [
+        "root_key_0"
+      ],
+      "R_t": 1,
+      "T_v": 1,
+      "S_v": 1,
+      "G_v": 1,
+      "D": "DELEGATION_ABSENT",
+      "E": "EXPIRATION_VALID"
+    },
+    "expected_state_trace": [],
+    "boundary_states": [],
+    "c2_pairs": [
+      "ROOT_ROTATE_VALID->SNAPSHOT_ADVANCE"
+    ],
+    "c3_triples": []
+  },
+  {
+    "sequence_id": "SEQ-2b2d1d085328",
+    "family": "F3",
+    "case_label": "PAIR-ROOT_ROTATE_VALID-TIMESTAMP_ADVANCE",
+    "origin": "TSTM_GENERATED",
+    "generation_method": "MECHANICAL_FULL_ALPHABET",
+    "transitions": [
+      {
+        "step_index": 0,
+        "transition_type": "ROOT_ROTATE_VALID",
+        "parameters": {},
+        "counts_toward_k": true
+      },
+      {
+        "step_index": 1,
+        "transition_type": "TIMESTAMP_ADVANCE",
+        "parameters": {},
+        "counts_toward_k": true
+      }
+    ],
+    "length": 2,
+    "oracle_properties": [],
+    "initial_state": {
+      "R_v": 1,
+      "R_K": [
+        "root_key_0"
+      ],
+      "R_t": 1,
+      "T_v": 1,
+      "S_v": 1,
+      "G_v": 1,
+      "D": "DELEGATION_ABSENT",
+      "E": "EXPIRATION_VALID"
+    },
+    "expected_state_trace": [],
+    "boundary_states": [],
+    "c2_pairs": [
+      "ROOT_ROTATE_VALID->TIMESTAMP_ADVANCE"
+    ],
+    "c3_triples": []
+  },
+  {
+    "sequence_id": "SEQ-563c4b2fd9d7",
+    "family": "F4",
+    "case_label": "PAIR-SNAPSHOT_ADVANCE-DELEGATION_CREATE",
+    "origin": "TSTM_GENERATED",
+    "generation_method": "MECHANICAL_FULL_ALPHABET",
+    "transitions": [
+      {
+        "step_index": 0,
+        "transition_type": "SNAPSHOT_ADVANCE",
+        "parameters": {},
+        "counts_toward_k": true
+      },
+      {
+        "step_index": 1,
+        "transition_type": "DELEGATION_CREATE",
+        "parameters": {},
+        "counts_toward_k": true
+      }
+    ],
+    "length": 2,
+    "oracle_properties": [],
+    "initial_state": {
+      "R_v": 1,
+      "R_K": [
+        "root_key_0"
+      ],
+      "R_t": 1,
+      "T_v": 1,
+      "S_v": 1,
+      "G_v": 1,
+      "D": "DELEGATION_ABSENT",
+      "E": "EXPIRATION_VALID"
+    },
+    "expected_state_trace": [],
+    "boundary_states": [],
+    "c2_pairs": [
+      "SNAPSHOT_ADVANCE->DELEGATION_CREATE"
+    ],
+    "c3_triples": []
+  },
+  {
+    "sequence_id": "SEQ-54962e31b3f7",
+    "family": "F3",
+    "case_label": "PAIR-SNAPSHOT_ADVANCE-EXPIRE",
+    "origin": "TSTM_GENERATED",
+    "generation_method": "MECHANICAL_FULL_ALPHABET",
+    "transitions": [
+      {
+        "step_index": 0,
+        "transition_type": "SNAPSHOT_ADVANCE",
+        "parameters": {},
+        "counts_toward_k": true
+      },
+      {
+        "step_index": 1,
+        "transition_type": "EXPIRE",
+        "parameters": {},
+        "counts_toward_k": true
+      }
+    ],
+    "length": 2,
+    "oracle_properties": [],
+    "initial_state": {
+      "R_v": 1,
+      "R_K": [
+        "root_key_0"
+      ],
+      "R_t": 1,
+      "T_v": 1,
+      "S_v": 1,
+      "G_v": 1,
+      "D": "DELEGATION_ABSENT",
+      "E": "EXPIRATION_VALID"
+    },
+    "expected_state_trace": [],
+    "boundary_states": [],
+    "c2_pairs": [
+      "SNAPSHOT_ADVANCE->EXPIRE"
+    ],
+    "c3_triples": []
+  },
+  {
+    "sequence_id": "SEQ-31d709ba83e0",
+    "family": "F1",
+    "case_label": "PAIR-SNAPSHOT_ADVANCE-ROOT_ROTATE_INSUF_THRESHOLD",
+    "origin": "TSTM_GENERATED",
+    "generation_method": "MECHANICAL_FULL_ALPHABET",
+    "transitions": [
+      {
+        "step_index": 0,
+        "transition_type": "SNAPSHOT_ADVANCE",
+        "parameters": {},
+        "counts_toward_k": true
+      },
+      {
+        "step_index": 1,
+        "transition_type": "ROOT_ROTATE_INSUF_THRESHOLD",
+        "parameters": {},
+        "counts_toward_k": true
+      }
+    ],
+    "length": 2,
+    "oracle_properties": [],
+    "initial_state": {
+      "R_v": 1,
+      "R_K": [
+        "root_key_0"
+      ],
+      "R_t": 1,
+      "T_v": 1,
+      "S_v": 1,
+      "G_v": 1,
+      "D": "DELEGATION_ABSENT",
+      "E": "EXPIRATION_VALID"
+    },
+    "expected_state_trace": [],
+    "boundary_states": [],
+    "c2_pairs": [
+      "SNAPSHOT_ADVANCE->ROOT_ROTATE_INSUF_THRESHOLD"
+    ],
+    "c3_triples": []
+  },
+  {
+    "sequence_id": "SEQ-851c20680a8b",
+    "family": "F1",
+    "case_label": "PAIR-SNAPSHOT_ADVANCE-ROOT_ROTATE_SKIP",
+    "origin": "TSTM_GENERATED",
+    "generation_method": "MECHANICAL_FULL_ALPHABET",
+    "transitions": [
+      {
+        "step_index": 0,
+        "transition_type": "SNAPSHOT_ADVANCE",
+        "parameters": {},
+        "counts_toward_k": true
+      },
+      {
+        "step_index": 1,
+        "transition_type": "ROOT_ROTATE_SKIP",
+        "parameters": {},
+        "counts_toward_k": true
+      }
+    ],
+    "length": 2,
+    "oracle_properties": [],
+    "initial_state": {
+      "R_v": 1,
+      "R_K": [
+        "root_key_0"
+      ],
+      "R_t": 1,
+      "T_v": 1,
+      "S_v": 1,
+      "G_v": 1,
+      "D": "DELEGATION_ABSENT",
+      "E": "EXPIRATION_VALID"
+    },
+    "expected_state_trace": [],
+    "boundary_states": [],
+    "c2_pairs": [
+      "SNAPSHOT_ADVANCE->ROOT_ROTATE_SKIP"
+    ],
+    "c3_triples": []
+  },
+  {
+    "sequence_id": "SEQ-98aaabb222be",
+    "family": "F1",
+    "case_label": "PAIR-SNAPSHOT_ADVANCE-ROOT_ROTATE_VALID",
+    "origin": "TSTM_GENERATED",
+    "generation_method": "MECHANICAL_FULL_ALPHABET",
+    "transitions": [
+      {
+        "step_index": 0,
+        "transition_type": "SNAPSHOT_ADVANCE",
+        "parameters": {},
+        "counts_toward_k": true
+      },
+      {
+        "step_index": 1,
+        "transition_type": "ROOT_ROTATE_VALID",
+        "parameters": {},
+        "counts_toward_k": true
+      }
+    ],
+    "length": 2,
+    "oracle_properties": [],
+    "initial_state": {
+      "R_v": 1,
+      "R_K": [
+        "root_key_0"
+      ],
+      "R_t": 1,
+      "T_v": 1,
+      "S_v": 1,
+      "G_v": 1,
+      "D": "DELEGATION_ABSENT",
+      "E": "EXPIRATION_VALID"
+    },
+    "expected_state_trace": [],
+    "boundary_states": [],
+    "c2_pairs": [
+      "SNAPSHOT_ADVANCE->ROOT_ROTATE_VALID"
+    ],
+    "c3_triples": []
+  },
+  {
+    "sequence_id": "SEQ-293792e63ef2",
+    "family": "F3",
+    "case_label": "PAIR-SNAPSHOT_ADVANCE-SNAPSHOT_ADVANCE",
+    "origin": "TSTM_GENERATED",
+    "generation_method": "MECHANICAL_FULL_ALPHABET",
+    "transitions": [
+      {
+        "step_index": 0,
+        "transition_type": "SNAPSHOT_ADVANCE",
+        "parameters": {},
+        "counts_toward_k": true
+      },
+      {
+        "step_index": 1,
+        "transition_type": "SNAPSHOT_ADVANCE",
+        "parameters": {},
+        "counts_toward_k": true
+      }
+    ],
+    "length": 2,
+    "oracle_properties": [],
+    "initial_state": {
+      "R_v": 1,
+      "R_K": [
+        "root_key_0"
+      ],
+      "R_t": 1,
+      "T_v": 1,
+      "S_v": 1,
+      "G_v": 1,
+      "D": "DELEGATION_ABSENT",
+      "E": "EXPIRATION_VALID"
+    },
+    "expected_state_trace": [],
+    "boundary_states": [],
+    "c2_pairs": [
+      "SNAPSHOT_ADVANCE->SNAPSHOT_ADVANCE"
+    ],
+    "c3_triples": []
+  },
+  {
+    "sequence_id": "SEQ-9cbbd756c2d2",
+    "family": "F3",
+    "case_label": "PAIR-SNAPSHOT_ADVANCE-SNAPSHOT_REPLAY",
+    "origin": "TSTM_GENERATED",
+    "generation_method": "MECHANICAL_FULL_ALPHABET",
+    "transitions": [
+      {
+        "step_index": 0,
+        "transition_type": "SNAPSHOT_ADVANCE",
+        "parameters": {},
+        "counts_toward_k": true
+      },
+      {
+        "step_index": 1,
+        "transition_type": "SNAPSHOT_REPLAY",
+        "parameters": {},
+        "counts_toward_k": true
+      }
+    ],
+    "length": 2,
+    "oracle_properties": [],
+    "initial_state": {
+      "R_v": 1,
+      "R_K": [
+        "root_key_0"
+      ],
+      "R_t": 1,
+      "T_v": 1,
+      "S_v": 1,
+      "G_v": 1,
+      "D": "DELEGATION_ABSENT",
+      "E": "EXPIRATION_VALID"
+    },
+    "expected_state_trace": [],
+    "boundary_states": [],
+    "c2_pairs": [
+      "SNAPSHOT_ADVANCE->SNAPSHOT_REPLAY"
+    ],
+    "c3_triples": []
+  },
+  {
+    "sequence_id": "SEQ-6c73b043a66c",
+    "family": "F3",
+    "case_label": "PAIR-SNAPSHOT_ADVANCE-TIMESTAMP_ADVANCE",
+    "origin": "TSTM_GENERATED",
+    "generation_method": "MECHANICAL_FULL_ALPHABET",
+    "transitions": [
+      {
+        "step_index": 0,
+        "transition_type": "SNAPSHOT_ADVANCE",
+        "parameters": {},
+        "counts_toward_k": true
+      },
+      {
+        "step_index": 1,
+        "transition_type": "TIMESTAMP_ADVANCE",
+        "parameters": {},
+        "counts_toward_k": true
+      }
+    ],
+    "length": 2,
+    "oracle_properties": [],
+    "initial_state": {
+      "R_v": 1,
+      "R_K": [
+        "root_key_0"
+      ],
+      "R_t": 1,
+      "T_v": 1,
+      "S_v": 1,
+      "G_v": 1,
+      "D": "DELEGATION_ABSENT",
+      "E": "EXPIRATION_VALID"
+    },
+    "expected_state_trace": [],
+    "boundary_states": [],
+    "c2_pairs": [
+      "SNAPSHOT_ADVANCE->TIMESTAMP_ADVANCE"
+    ],
+    "c3_triples": []
+  },
+  {
+    "sequence_id": "SEQ-2916fa09f2cc",
+    "family": "F4",
+    "case_label": "PAIR-TIMESTAMP_ADVANCE-DELEGATION_CREATE",
+    "origin": "TSTM_GENERATED",
+    "generation_method": "MECHANICAL_FULL_ALPHABET",
+    "transitions": [
+      {
+        "step_index": 0,
+        "transition_type": "TIMESTAMP_ADVANCE",
+        "parameters": {},
+        "counts_toward_k": true
+      },
+      {
+        "step_index": 1,
+        "transition_type": "DELEGATION_CREATE",
+        "parameters": {},
+        "counts_toward_k": true
+      }
+    ],
+    "length": 2,
+    "oracle_properties": [],
+    "initial_state": {
+      "R_v": 1,
+      "R_K": [
+        "root_key_0"
+      ],
+      "R_t": 1,
+      "T_v": 1,
+      "S_v": 1,
+      "G_v": 1,
+      "D": "DELEGATION_ABSENT",
+      "E": "EXPIRATION_VALID"
+    },
+    "expected_state_trace": [],
+    "boundary_states": [],
+    "c2_pairs": [
+      "TIMESTAMP_ADVANCE->DELEGATION_CREATE"
+    ],
+    "c3_triples": []
+  },
+  {
+    "sequence_id": "SEQ-e51a9f0a9dc9",
+    "family": "F3",
+    "case_label": "PAIR-TIMESTAMP_ADVANCE-EXPIRE",
+    "origin": "TSTM_GENERATED",
+    "generation_method": "MECHANICAL_FULL_ALPHABET",
+    "transitions": [
+      {
+        "step_index": 0,
+        "transition_type": "TIMESTAMP_ADVANCE",
+        "parameters": {},
+        "counts_toward_k": true
+      },
+      {
+        "step_index": 1,
+        "transition_type": "EXPIRE",
+        "parameters": {},
+        "counts_toward_k": true
+      }
+    ],
+    "length": 2,
+    "oracle_properties": [],
+    "initial_state": {
+      "R_v": 1,
+      "R_K": [
+        "root_key_0"
+      ],
+      "R_t": 1,
+      "T_v": 1,
+      "S_v": 1,
+      "G_v": 1,
+      "D": "DELEGATION_ABSENT",
+      "E": "EXPIRATION_VALID"
+    },
+    "expected_state_trace": [],
+    "boundary_states": [],
+    "c2_pairs": [
+      "TIMESTAMP_ADVANCE->EXPIRE"
+    ],
+    "c3_triples": []
+  },
+  {
+    "sequence_id": "SEQ-cfd8c776561c",
+    "family": "F1",
+    "case_label": "PAIR-TIMESTAMP_ADVANCE-ROOT_ROTATE_INSUF_THRESHOLD",
+    "origin": "TSTM_GENERATED",
+    "generation_method": "MECHANICAL_FULL_ALPHABET",
+    "transitions": [
+      {
+        "step_index": 0,
+        "transition_type": "TIMESTAMP_ADVANCE",
+        "parameters": {},
+        "counts_toward_k": true
+      },
+      {
+        "step_index": 1,
+        "transition_type": "ROOT_ROTATE_INSUF_THRESHOLD",
+        "parameters": {},
+        "counts_toward_k": true
+      }
+    ],
+    "length": 2,
+    "oracle_properties": [],
+    "initial_state": {
+      "R_v": 1,
+      "R_K": [
+        "root_key_0"
+      ],
+      "R_t": 1,
+      "T_v": 1,
+      "S_v": 1,
+      "G_v": 1,
+      "D": "DELEGATION_ABSENT",
+      "E": "EXPIRATION_VALID"
+    },
+    "expected_state_trace": [],
+    "boundary_states": [],
+    "c2_pairs": [
+      "TIMESTAMP_ADVANCE->ROOT_ROTATE_INSUF_THRESHOLD"
+    ],
+    "c3_triples": []
+  },
+  {
+    "sequence_id": "SEQ-527321b94ca1",
+    "family": "F1",
+    "case_label": "PAIR-TIMESTAMP_ADVANCE-ROOT_ROTATE_SKIP",
+    "origin": "TSTM_GENERATED",
+    "generation_method": "MECHANICAL_FULL_ALPHABET",
+    "transitions": [
+      {
+        "step_index": 0,
+        "transition_type": "TIMESTAMP_ADVANCE",
+        "parameters": {},
+        "counts_toward_k": true
+      },
+      {
+        "step_index": 1,
+        "transition_type": "ROOT_ROTATE_SKIP",
+        "parameters": {},
+        "counts_toward_k": true
+      }
+    ],
+    "length": 2,
+    "oracle_properties": [],
+    "initial_state": {
+      "R_v": 1,
+      "R_K": [
+        "root_key_0"
+      ],
+      "R_t": 1,
+      "T_v": 1,
+      "S_v": 1,
+      "G_v": 1,
+      "D": "DELEGATION_ABSENT",
+      "E": "EXPIRATION_VALID"
+    },
+    "expected_state_trace": [],
+    "boundary_states": [],
+    "c2_pairs": [
+      "TIMESTAMP_ADVANCE->ROOT_ROTATE_SKIP"
+    ],
+    "c3_triples": []
+  },
+  {
+    "sequence_id": "SEQ-f6c808753161",
+    "family": "F1",
+    "case_label": "PAIR-TIMESTAMP_ADVANCE-ROOT_ROTATE_VALID",
+    "origin": "TSTM_GENERATED",
+    "generation_method": "MECHANICAL_FULL_ALPHABET",
+    "transitions": [
+      {
+        "step_index": 0,
+        "transition_type": "TIMESTAMP_ADVANCE",
+        "parameters": {},
+        "counts_toward_k": true
+      },
+      {
+        "step_index": 1,
+        "transition_type": "ROOT_ROTATE_VALID",
+        "parameters": {},
+        "counts_toward_k": true
+      }
+    ],
+    "length": 2,
+    "oracle_properties": [],
+    "initial_state": {
+      "R_v": 1,
+      "R_K": [
+        "root_key_0"
+      ],
+      "R_t": 1,
+      "T_v": 1,
+      "S_v": 1,
+      "G_v": 1,
+      "D": "DELEGATION_ABSENT",
+      "E": "EXPIRATION_VALID"
+    },
+    "expected_state_trace": [],
+    "boundary_states": [],
+    "c2_pairs": [
+      "TIMESTAMP_ADVANCE->ROOT_ROTATE_VALID"
+    ],
+    "c3_triples": []
+  },
+  {
+    "sequence_id": "SEQ-c53c3c179b1c",
+    "family": "F3",
+    "case_label": "PAIR-TIMESTAMP_ADVANCE-SNAPSHOT_ADVANCE",
+    "origin": "TSTM_GENERATED",
+    "generation_method": "MECHANICAL_FULL_ALPHABET",
+    "transitions": [
+      {
+        "step_index": 0,
+        "transition_type": "TIMESTAMP_ADVANCE",
+        "parameters": {},
+        "counts_toward_k": true
+      },
+      {
+        "step_index": 1,
+        "transition_type": "SNAPSHOT_ADVANCE",
+        "parameters": {},
+        "counts_toward_k": true
+      }
+    ],
+    "length": 2,
+    "oracle_properties": [],
+    "initial_state": {
+      "R_v": 1,
+      "R_K": [
+        "root_key_0"
+      ],
+      "R_t": 1,
+      "T_v": 1,
+      "S_v": 1,
+      "G_v": 1,
+      "D": "DELEGATION_ABSENT",
+      "E": "EXPIRATION_VALID"
+    },
+    "expected_state_trace": [],
+    "boundary_states": [],
+    "c2_pairs": [
+      "TIMESTAMP_ADVANCE->SNAPSHOT_ADVANCE"
+    ],
+    "c3_triples": []
+  },
+  {
+    "sequence_id": "SEQ-0f454548103a",
+    "family": "F3",
+    "case_label": "PAIR-TIMESTAMP_ADVANCE-TIMESTAMP_ADVANCE",
+    "origin": "TSTM_GENERATED",
+    "generation_method": "MECHANICAL_FULL_ALPHABET",
+    "transitions": [
+      {
+        "step_index": 0,
+        "transition_type": "TIMESTAMP_ADVANCE",
+        "parameters": {},
+        "counts_toward_k": true
+      },
+      {
+        "step_index": 1,
+        "transition_type": "TIMESTAMP_ADVANCE",
+        "parameters": {},
+        "counts_toward_k": true
+      }
+    ],
+    "length": 2,
+    "oracle_properties": [],
+    "initial_state": {
+      "R_v": 1,
+      "R_K": [
+        "root_key_0"
+      ],
+      "R_t": 1,
+      "T_v": 1,
+      "S_v": 1,
+      "G_v": 1,
+      "D": "DELEGATION_ABSENT",
+      "E": "EXPIRATION_VALID"
+    },
+    "expected_state_trace": [],
+    "boundary_states": [],
+    "c2_pairs": [
+      "TIMESTAMP_ADVANCE->TIMESTAMP_ADVANCE"
+    ],
+    "c3_triples": []
+  },
+  {
+    "sequence_id": "SEQ-841f6a7b3af0",
+    "family": "F3",
+    "case_label": "PAIR-TIMESTAMP_ADVANCE-TIMESTAMP_REPLAY",
+    "origin": "TSTM_GENERATED",
+    "generation_method": "MECHANICAL_FULL_ALPHABET",
+    "transitions": [
+      {
+        "step_index": 0,
+        "transition_type": "TIMESTAMP_ADVANCE",
+        "parameters": {},
+        "counts_toward_k": true
+      },
+      {
+        "step_index": 1,
+        "transition_type": "TIMESTAMP_REPLAY",
+        "parameters": {},
+        "counts_toward_k": true
+      }
+    ],
+    "length": 2,
+    "oracle_properties": [],
+    "initial_state": {
+      "R_v": 1,
+      "R_K": [
+        "root_key_0"
+      ],
+      "R_t": 1,
+      "T_v": 1,
+      "S_v": 1,
+      "G_v": 1,
+      "D": "DELEGATION_ABSENT",
+      "E": "EXPIRATION_VALID"
+    },
+    "expected_state_trace": [],
+    "boundary_states": [],
+    "c2_pairs": [
+      "TIMESTAMP_ADVANCE->TIMESTAMP_REPLAY"
+    ],
+    "c3_triples": []
+  }
+]

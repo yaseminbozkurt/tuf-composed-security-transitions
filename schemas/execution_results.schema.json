@@ -1,0 +1,67 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "tuf-tstm-execution-results.schema.json",
+  "title": "TSTM Execution Result Record",
+  "description": "One row per (sequence, implementation), produced ONLY after real execution against a real client. Never hand-authored or inferred. Per Agent 4 Section 17 / Section 27 (no empirical claims without actual execution).",
+  "type": "object",
+  "required": [
+    "sequence_id", "implementation", "implementation_version", "spec_version",
+    "execution_status", "observed_decision_trace", "observed_final_state",
+    "oracle_match", "conformance_class", "raw_log_reference"
+  ],
+  "properties": {
+    "sequence_id": {
+      "type": "string",
+      "pattern": "^SEQ-[0-9a-f]{12}$",
+      "description": "Foreign key into sequence_corpus."
+    },
+    "implementation": {
+      "type": "string",
+      "enum": ["python-tuf", "go-tuf-v2", "tuf-js"],
+      "description": "go-tuf-v2 only, per Agent 3/4: legacy go-tuf (v0.7.0) excluded to avoid spec-version confound. tuf-js added as a third independent implementation (Future Research item (3), now executed)."
+    },
+    "implementation_version": {
+      "type": "string",
+      "description": "Exact pinned commit hash or release tag. Never a floating branch name like 'main'."
+    },
+    "spec_version": {
+      "type": "string",
+      "description": "TUF specification version the implementation claims to target, as declared by the implementation itself."
+    },
+    "execution_status": {
+      "type": "string",
+      "enum": ["COMPLETED", "HARNESS_ERROR", "TIMEOUT", "CRASH"],
+      "description": "Distinguishes a genuine semantic REJECT from a harness/execution failure (Agent 4 Section 21 concern: a crash is NOT a correct REJECT)."
+    },
+    "observed_decision_trace": {
+      "type": "array",
+      "items": {"type": "string", "enum": ["ACCEPT", "REJECT", "UNSUPPORTED"]},
+      "description": "One decision per transition step actually observed from the client. Empty if execution_status != COMPLETED."
+    },
+    "observed_final_state": {
+      "type": "object",
+      "description": "Trusted state as read via the ClientRunner introspection interface after the sequence. Fields marked NOT_OBSERVABLE in Agent 4 Section 4 must be reported as null, never guessed."
+    },
+    "oracle_match": {
+      "type": ["boolean", "null"],
+      "description": "True/false only if execution_status == COMPLETED and the property's oracle_type is DIRECT or COMPOSED_UNAMBIGUOUS. Null if not evaluable (e.g. harness error, unsupported feature)."
+    },
+    "conformance_class": {
+      "type": "string",
+      "enum": [
+        "CONFORMING", "NORMATIVE_VIOLATION", "SPEC_VERSION_DIFFERENCE",
+        "OPTIONAL_FEATURE_DIFFERENCE", "SPEC_AMBIGUITY", "HARNESS_ARTIFACT",
+        "EXECUTION_FAILURE", "NOT_SUPPORTED"
+      ],
+      "description": "Assigned by the strict adjudication hierarchy in agent5_pipeline.py -- never by majority vote between implementations (Agent 3 Section 16 / Agent 4 Section 18)."
+    },
+    "failure_stage": {
+      "type": ["string", "null"],
+      "description": "step_index at which a violation or failure was first observed, if any."
+    },
+    "raw_log_reference": {
+      "type": "string",
+      "description": "Path/URI to the unmodified raw execution log for this run. Mandatory for reproducibility (Agent 4 Section 25)."
+    }
+  }
+}

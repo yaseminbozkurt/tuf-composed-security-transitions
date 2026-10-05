@@ -1,0 +1,170 @@
+[
+  {
+    "sequence_id": "SEQ-777f334982b5",
+    "implementation": "python-tuf",
+    "family": "F1",
+    "case_label": "P2",
+    "step_results": {
+      "baseline_refresh": 0,
+      "refresh_after_skip_v1_to_v3": 1
+    }
+  },
+  {
+    "sequence_id": "SEQ-777f334982b5",
+    "implementation": "go-tuf-v2",
+    "family": "F1",
+    "case_label": "P2",
+    "step_results": {
+      "baseline_refresh": 0,
+      "refresh_after_skip_v1_to_v3": 1
+    }
+  },
+  {
+    "sequence_id": "SEQ-777f334982b5",
+    "implementation": "tuf-js",
+    "family": "F1",
+    "case_label": "P2",
+    "step_results": {
+      "baseline_refresh": 0,
+      "refresh_after_skip_v1_to_v3": 1
+    }
+  },
+  {
+    "sequence_id": "SEQ-102432177501",
+    "implementation": "python-tuf",
+    "family": "F5",
+    "case_label": "P4",
+    "step_results": {
+      "baseline_refresh_v1": 0,
+      "refresh_after_genuinely_valid_rotation_v2": 0,
+      "refresh_v3_signed_only_by_removed_v1_key": 1
+    }
+  },
+  {
+    "sequence_id": "SEQ-102432177501",
+    "implementation": "go-tuf-v2",
+    "family": "F5",
+    "case_label": "P4",
+    "step_results": {
+      "baseline_refresh_v1": 0,
+      "refresh_after_genuinely_valid_rotation_v2": 0,
+      "refresh_v3_signed_only_by_removed_v1_key": 1
+    }
+  },
+  {
+    "sequence_id": "SEQ-102432177501",
+    "implementation": "tuf-js",
+    "family": "F5",
+    "case_label": "P4",
+    "step_results": {
+      "baseline_refresh_v1": 0,
+      "refresh_after_genuinely_valid_rotation_v2": 0,
+      "refresh_v3_signed_only_by_removed_v1_key": 1
+    }
+  },
+  {
+    "sequence_id": "SEQ-7fc216980afd",
+    "implementation": "python-tuf",
+    "family": "F1",
+    "case_label": "P1_CONTROL",
+    "step_results": {
+      "baseline_refresh_v1": 0,
+      "refresh_v2_signed_only_by_new_key_missing_old_threshold": 1
+    }
+  },
+  {
+    "sequence_id": "SEQ-7fc216980afd",
+    "implementation": "go-tuf-v2",
+    "family": "F1",
+    "case_label": "P1_CONTROL",
+    "step_results": {
+      "baseline_refresh_v1": 0,
+      "refresh_v2_signed_only_by_new_key_missing_old_threshold": 1
+    }
+  },
+  {
+    "sequence_id": "SEQ-7fc216980afd",
+    "implementation": "tuf-js",
+    "family": "F1",
+    "case_label": "P1_CONTROL",
+    "step_results": {
+      "baseline_refresh_v1": 0,
+      "refresh_v2_signed_only_by_new_key_missing_old_threshold": 1
+    }
+  },
+  {
+    "sequence_id": "SEQ-1b6d0ee4c83e",
+    "implementation": "python-tuf",
+    "family": "F1",
+    "case_label": "P1",
+    "step_results": {
+      "baseline_refresh_v1": 0,
+      "refresh_after_valid_rotation_v1_to_v2": 0,
+      "refresh_after_insuf_threshold_attempt": 1,
+      "refresh_after_valid_recovery_rotation": 0
+    }
+  },
+  {
+    "sequence_id": "SEQ-1b6d0ee4c83e",
+    "implementation": "go-tuf-v2",
+    "family": "F1",
+    "case_label": "P1",
+    "step_results": {
+      "baseline_refresh_v1": 0,
+      "refresh_after_valid_rotation_v1_to_v2": 0,
+      "refresh_after_insuf_threshold_attempt": 1,
+      "refresh_after_valid_recovery_rotation": 0
+    }
+  },
+  {
+    "sequence_id": "SEQ-1b6d0ee4c83e",
+    "implementation": "tuf-js",
+    "family": "F1",
+    "case_label": "P1",
+    "step_results": {
+      "baseline_refresh_v1": 0,
+      "refresh_after_valid_rotation_v1_to_v2": 0,
+      "refresh_after_insuf_threshold_attempt": 1,
+      "refresh_after_valid_recovery_rotation": 0
+    }
+  },
+  {
+    "sequence_id": "SEQ-4f5892f06552",
+    "implementation": "python-tuf",
+    "family": "F4",
+    "case_label": "P5",
+    "step_results": {
+      "refresh_with_delegation": 0,
+      "download_via_delegation": 0,
+      "refresh_after_delegation_removed": 0,
+      "download_after_delegation_removed": 1,
+      "final_delegated_role_version": 1
+    }
+  },
+  {
+    "sequence_id": "SEQ-4f5892f06552",
+    "implementation": "go-tuf-v2",
+    "family": "F4",
+    "case_label": "P5",
+    "step_results": {
+      "refresh_with_delegation": 0,
+      "download_via_delegation": 0,
+      "refresh_after_delegation_removed": 0,
+      "download_after_delegation_removed": 1,
+      "final_delegated_role_version": 1
+    }
+  },
+  {
+    "sequence_id": "SEQ-4f5892f06552",
+    "implementation": "tuf-js",
+    "family": "F4",
+    "case_label": "P5",
+    "step_results": {
+      "refresh_with_delegation": 0,
+      "download_via_delegation": 0,
+      "refresh_after_delegation_removed": 0,
+      "download_after_delegation_removed": 1,
+      "final_delegated_role_version": 1
+    }
+  }
+]

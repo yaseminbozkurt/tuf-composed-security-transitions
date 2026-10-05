@@ -1,0 +1,116 @@
+[
+  {
+    "mutation": "M1_P2_root_skip",
+    "rule": "ROOT_ROTATE_SKIP  (P2; NO independent official evidence -- probe target)",
+    "engine_predicted": 1,
+    "step": "refresh_after_skip_v1_to_v3",
+    "stock_python-tuf": {
+      "trace": {
+        "baseline_refresh": 0,
+        "refresh_after_skip_v1_to_v3": 1
+      },
+      "observed": 1,
+      "verdict": "CONFORMING"
+    },
+    "stock_go-tuf-v2": {
+      "trace": {
+        "baseline_refresh": 0,
+        "refresh_after_skip_v1_to_v3": 1
+      },
+      "observed": 1,
+      "verdict": "CONFORMING"
+    },
+    "stock_tuf-js": {
+      "trace": {
+        "baseline_refresh": 0,
+        "refresh_after_skip_v1_to_v3": 1
+      },
+      "observed": 1,
+      "verdict": "CONFORMING"
+    },
+    "mutant_python-tuf": {
+      "trace": {
+        "baseline_refresh": 0,
+        "refresh_after_skip_v1_to_v3": 0
+      },
+      "observed": 0,
+      "verdict": "NORMATIVE_VIOLATION"
+    }
+  },
+  {
+    "mutation": "M2_P3_ts_rollback",
+    "rule": "TIMESTAMP_REPLAY  (P3; HAS independent evidence -- method positive control)",
+    "engine_predicted": 1,
+    "step": "refresh_after_replay",
+    "stock_python-tuf": {
+      "trace": {
+        "advance_refresh": 0,
+        "refresh_after_replay": 1
+      },
+      "observed": 1,
+      "verdict": "CONFORMING"
+    },
+    "stock_go-tuf-v2": {
+      "trace": {
+        "advance_refresh": 0,
+        "refresh_after_replay": 1
+      },
+      "observed": 1,
+      "verdict": "CONFORMING"
+    },
+    "stock_tuf-js": {
+      "trace": {
+        "advance_refresh": 0,
+        "refresh_after_replay": 1
+      },
+      "observed": 1,
+      "verdict": "CONFORMING"
+    },
+    "mutant_python-tuf": {
+      "trace": {
+        "advance_refresh": 0,
+        "refresh_after_replay": 0
+      },
+      "observed": 0,
+      "verdict": "NORMATIVE_VIOLATION"
+    }
+  },
+  {
+    "mutation": "M3_P4_removed_key",
+    "rule": "METADATA_BY_REMOVED_KEY  (P4; NO independent official evidence -- probe target)",
+    "engine_predicted": 1,
+    "step": "refresh_v3_resurrects_removed_key",
+    "stock_python-tuf": {
+      "trace": {
+        "valid_rotation_v2": 0,
+        "refresh_v3_resurrects_removed_key": 1
+      },
+      "observed": 1,
+      "verdict": "CONFORMING"
+    },
+    "stock_go-tuf-v2": {
+      "trace": {
+        "valid_rotation_v2": 0,
+        "refresh_v3_resurrects_removed_key": 1
+      },
+      "observed": 1,
+      "verdict": "CONFORMING"
+    },
+    "stock_tuf-js": {
+      "trace": {
+        "valid_rotation_v2": 0,
+        "refresh_v3_resurrects_removed_key": 1
+      },
+      "observed": 1,
+      "verdict": "CONFORMING"
+    },
+    "mutant_python-tuf": {
+      "trace": {
+        "valid_rotation_v2": 0,
+        "refresh_v3_resurrects_removed_key": 0
+      },
+      "observed": 0,
+      "verdict": "NORMATIVE_VIOLATION"
+    }
+  }
+]

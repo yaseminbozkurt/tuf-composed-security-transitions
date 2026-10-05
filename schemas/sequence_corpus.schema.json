@@ -1,0 +1,114 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "tuf-tstm-sequence-corpus.schema.json",
+  "title": "TSTM Sequence Corpus Record",
+  "description": "One row per generated abstract security-transition sequence, per Agent 3 Section 16 / Agent 4 Section 16. Frozen prior to execution; must not be altered after results are observed.",
+  "type": "object",
+  "required": [
+    "sequence_id", "family", "origin", "transitions", "length",
+    "initial_state", "expected_state_trace", "oracle_properties",
+    "c2_pairs", "c3_triples", "boundary_states"
+  ],
+  "properties": {
+    "sequence_id": {
+      "type": "string",
+      "description": "Stable, unique, content-derived ID (e.g. hash of transition trace) so the same sequence always gets the same ID.",
+      "pattern": "^SEQ-[0-9a-f]{12}$"
+    },
+    "family": {
+      "type": "string",
+      "enum": ["F1", "F2", "F3", "F4", "F5", "F6", "F7"],
+      "description": "F8 is intentionally excluded (Agent 3 Section 5: subsumed, not a distinct family)."
+    },
+    "origin": {
+      "type": "string",
+      "enum": ["TSTM_GENERATED", "BASELINE_MAPPED"],
+      "description": "TSTM_GENERATED = produced by the bounded generator (Agent 4 Section 10). BASELINE_MAPPED = an existing tuf-conformance test case re-expressed in this schema (Agent 4 Section 12). Required to keep the two populations distinguishable for the coverage-delta calculation."
+    },
+    "baseline_source": {
+      "type": ["object", "null"],
+      "description": "Populated only when origin == BASELINE_MAPPED.",
+      "properties": {
+        "file": {"type": "string"},
+        "test_function": {"type": "string"},
+        "repo_commit": {"type": "string"}
+      }
+    },
+    "transitions": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 6,
+      "items": {
+        "type": "object",
+        "required": ["step_index", "transition_type", "parameters"],
+        "properties": {
+          "step_index": {"type": "integer", "minimum": 0},
+          "transition_type": {
+            "type": "string",
+            "enum": [
+              "ROOT_ROTATE_VALID", "ROOT_ROTATE_SKIP", "ROOT_ROTATE_INSUF_THRESHOLD",
+              "TIMESTAMP_ADVANCE", "TIMESTAMP_REPLAY",
+              "SNAPSHOT_ADVANCE", "SNAPSHOT_REPLAY",
+              "DELEGATION_CREATE", "DELEGATION_REMOVE",
+              "DELEGATED_REPLAY_AFTER_REMOVAL", "METADATA_BY_REMOVED_KEY",
+              "EXPIRE"
+            ]
+          },
+          "parameters": {
+            "type": "object",
+            "description": "Concrete instantiation within the frozen finite domains (Agent 4 Section 6). Free-form but must only use frozen domain values -- validated separately, not by this schema alone."
+          },
+          "counts_toward_k": {
+            "type": "boolean",
+            "description": "False only for the bootstrap/setup step (Agent 4 Section 8: bootstrap is excluded from K)."
+          }
+        }
+      }
+    },
+    "length": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 6,
+      "description": "Number of steps with counts_toward_k == true. Must be <=4 for CORE families (F1,F3,F4,F5) and <=6 for SECONDARY (F2,F6,F7)."
+    },
+    "initial_state": {
+      "type": "object",
+      "required": ["R_v", "R_K", "R_t", "T_v", "S_v", "G_v", "D", "E"],
+      "description": "Frozen finite-domain abstract state (Agent 3 Section 3 / Agent 4 Section 6)."
+    },
+    "expected_state_trace": {
+      "type": "array",
+      "description": "One abstract state snapshot per step, deterministically derived from the oracle -- never inferred from observed execution.",
+      "items": {"type": "object"}
+    },
+    "oracle_properties": {
+      "type": "array",
+      "items": {"type": "string", "enum": ["P1", "P2", "P3", "P4", "P5"]},
+      "description": "Which normative properties this sequence is designed to exercise (Agent 3 Section 7). A property counts as 'exercised' for C4 only if this sequence actually reaches the property's precondition -- checked at generation time, not asserted here."
+    },
+    "c2_pairs": {
+      "type": "array",
+      "items": {"type": "string", "pattern": "^[A-Z_]+->[A-Z_]+$"},
+      "description": "Ordered adjacent transition-type pairs contributed by this sequence, for C2 accumulation."
+    },
+    "c3_triples": {
+      "type": "array",
+      "items": {"type": "string", "pattern": "^[A-Z_]+->[A-Z_]+->[A-Z_]+$"},
+      "description": "Ordered adjacent transition-type triples, CORE-family-restricted (Agent 3 Section 10 / Agent 4 Section 16)."
+    },
+    "boundary_states": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "VERSION_PREVIOUS", "VERSION_CURRENT", "VERSION_NEXT", "VERSION_SKIPPED_NEXT",
+          "THRESHOLD_BELOW", "THRESHOLD_EXACT",
+          "KEY_ACTIVE", "KEY_REMOVED", "KEY_PARTIAL_OVERLAP", "KEY_FULL_REPLACEMENT",
+          "DELEGATION_ABSENT", "DELEGATION_ACTIVE", "DELEGATION_REMOVED",
+          "EXPIRATION_VALID", "EXPIRATION_EXPIRED"
+        ]
+      },
+      "description": "Which frozen boundary conditions (Agent 4 Section 6/18) this sequence instantiates, for C5."
+    }
+  }
+}

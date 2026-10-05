@@ -1,0 +1,20 @@
+[
+  {
+    "_notice": "SYNTHETIC EXAMPLE FILE FOR SCHEMA VALIDATION ONLY -- NOT REAL TUF SEQUENCES. Delete this file and replace with a real sequence_corpus.json once the Agent 4 generator actually runs against the frozen state model.",
+    "sequence_id": "SEQ-000000000000",
+    "family": "F1",
+    "origin": "TSTM_GENERATED",
+    "transitions": [
+      {"step_index": 0, "transition_type": "ROOT_ROTATE_VALID", "parameters": {}, "counts_toward_k": true},
+      {"step_index": 1, "transition_type": "ROOT_ROTATE_VALID", "parameters": {}, "counts_toward_k": true},
+      {"step_index": 2, "transition_type": "ROOT_ROTATE_SKIP", "parameters": {}, "counts_toward_k": true}
+    ],
+    "length": 3,
+    "initial_state": {"R_v": 1, "R_K": ["K1"], "R_t": 1, "T_v": 1, "S_v": 1, "G_v": 1, "D": {}, "E": "valid"},
+    "expected_state_trace": [],
+    "oracle_properties": ["P2"],
+    "c2_pairs": ["ROOT_ROTATE_VALID->ROOT_ROTATE_VALID", "ROOT_ROTATE_VALID->ROOT_ROTATE_SKIP"],
+    "c3_triples": ["ROOT_ROTATE_VALID->ROOT_ROTATE_VALID->ROOT_ROTATE_SKIP"],
+    "boundary_states": ["VERSION_SKIPPED_NEXT"]
+  }
+]

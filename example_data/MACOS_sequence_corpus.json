@@ -1,0 +1,226 @@
+[
+  {
+    "sequence_id": "SEQ-777f334982b5",
+    "family": "F1",
+    "case_label": "P2",
+    "origin": "TSTM_GENERATED",
+    "transitions": [
+      {
+        "step_index": 0,
+        "transition_type": "ROOT_ROTATE_SKIP",
+        "parameters": {},
+        "counts_toward_k": true
+      }
+    ],
+    "length": 1,
+    "oracle_properties": [
+      "P2"
+    ],
+    "initial_state": {
+      "R_v": 1,
+      "R_K": [
+        "root_key_0"
+      ],
+      "R_t": 1,
+      "T_v": 1,
+      "S_v": 1,
+      "G_v": 1,
+      "D": "DELEGATION_ABSENT",
+      "E": "EXPIRATION_VALID"
+    },
+    "step_role_map": {
+      "baseline_refresh": "SETUP",
+      "refresh_after_skip_v1_to_v3": "ROOT_ROTATE_SKIP"
+    },
+    "boundary_states": [
+      "VERSION_SKIPPED_NEXT"
+    ]
+  },
+  {
+    "sequence_id": "SEQ-102432177501",
+    "family": "F5",
+    "case_label": "P4",
+    "origin": "TSTM_GENERATED",
+    "transitions": [
+      {
+        "step_index": 0,
+        "transition_type": "ROOT_ROTATE_VALID",
+        "parameters": {},
+        "counts_toward_k": true
+      },
+      {
+        "step_index": 1,
+        "transition_type": "METADATA_BY_REMOVED_KEY",
+        "parameters": {},
+        "counts_toward_k": true
+      }
+    ],
+    "length": 2,
+    "oracle_properties": [
+      "P4"
+    ],
+    "initial_state": {
+      "R_v": 1,
+      "R_K": [
+        "root_key_0"
+      ],
+      "R_t": 1,
+      "T_v": 1,
+      "S_v": 1,
+      "G_v": 1,
+      "D": "DELEGATION_ABSENT",
+      "E": "EXPIRATION_VALID"
+    },
+    "step_role_map": {
+      "baseline_refresh_v1": "SETUP",
+      "refresh_after_genuinely_valid_rotation_v2": "ROOT_ROTATE_VALID",
+      "refresh_v3_signed_only_by_removed_v1_key": "METADATA_BY_REMOVED_KEY"
+    },
+    "boundary_states": [
+      "KEY_REMOVED",
+      "KEY_FULL_REPLACEMENT"
+    ]
+  },
+  {
+    "sequence_id": "SEQ-7fc216980afd",
+    "family": "F1",
+    "case_label": "P1_CONTROL",
+    "origin": "TSTM_GENERATED",
+    "transitions": [
+      {
+        "step_index": 0,
+        "transition_type": "ROOT_ROTATE_INSUF_THRESHOLD",
+        "parameters": {},
+        "counts_toward_k": true
+      }
+    ],
+    "length": 1,
+    "oracle_properties": [],
+    "initial_state": {
+      "R_v": 1,
+      "R_K": [
+        "root_key_0"
+      ],
+      "R_t": 1,
+      "T_v": 1,
+      "S_v": 1,
+      "G_v": 1,
+      "D": "DELEGATION_ABSENT",
+      "E": "EXPIRATION_VALID"
+    },
+    "step_role_map": {
+      "baseline_refresh_v1": "SETUP",
+      "refresh_v2_signed_only_by_new_key_missing_old_threshold": "ROOT_ROTATE_INSUF_THRESHOLD"
+    },
+    "boundary_states": [
+      "THRESHOLD_BELOW"
+    ],
+    "control_case_note": "Overlaps tuf-conformance's own official test_updater_key_rotations.py::test_root_rotation[1-of-1-key-rotation-fail-not-signed-with-old-key], confirmed by direct source inspection (see tuf_study/baseline/). Kept as a real, executed control/regression case, not claimed as a novel TSTM contribution -- excluded from oracle_properties and from C2-C4."
+  },
+  {
+    "sequence_id": "SEQ-1b6d0ee4c83e",
+    "family": "F1",
+    "case_label": "P1",
+    "origin": "TSTM_GENERATED",
+    "transitions": [
+      {
+        "step_index": 0,
+        "transition_type": "ROOT_ROTATE_VALID",
+        "parameters": {},
+        "counts_toward_k": true
+      },
+      {
+        "step_index": 1,
+        "transition_type": "ROOT_ROTATE_INSUF_THRESHOLD",
+        "parameters": {},
+        "counts_toward_k": true
+      },
+      {
+        "step_index": 2,
+        "transition_type": "ROOT_ROTATE_VALID",
+        "parameters": {},
+        "counts_toward_k": true
+      }
+    ],
+    "length": 3,
+    "oracle_properties": [
+      "P1"
+    ],
+    "initial_state": {
+      "R_v": 1,
+      "R_K": [
+        "root_key_0"
+      ],
+      "R_t": 1,
+      "T_v": 1,
+      "S_v": 1,
+      "G_v": 1,
+      "D": "DELEGATION_ABSENT",
+      "E": "EXPIRATION_VALID"
+    },
+    "step_role_map": {
+      "baseline_refresh_v1": "SETUP",
+      "refresh_after_valid_rotation_v1_to_v2": "ROOT_ROTATE_VALID",
+      "refresh_after_insuf_threshold_attempt": "ROOT_ROTATE_INSUF_THRESHOLD",
+      "refresh_after_valid_recovery_rotation": "ROOT_ROTATE_VALID"
+    },
+    "boundary_states": [
+      "THRESHOLD_BELOW",
+      "THRESHOLD_EXACT",
+      "KEY_FULL_REPLACEMENT"
+    ]
+  },
+  {
+    "sequence_id": "SEQ-4f5892f06552",
+    "family": "F4",
+    "case_label": "P5",
+    "origin": "TSTM_GENERATED",
+    "transitions": [
+      {
+        "step_index": 0,
+        "transition_type": "DELEGATION_CREATE",
+        "parameters": {},
+        "counts_toward_k": true
+      },
+      {
+        "step_index": 1,
+        "transition_type": "DELEGATION_REMOVE",
+        "parameters": {},
+        "counts_toward_k": true
+      },
+      {
+        "step_index": 2,
+        "transition_type": "DELEGATED_REPLAY_AFTER_REMOVAL",
+        "parameters": {},
+        "counts_toward_k": true
+      }
+    ],
+    "length": 3,
+    "oracle_properties": [
+      "P5"
+    ],
+    "initial_state": {
+      "R_v": 1,
+      "R_K": [
+        "root_key_0"
+      ],
+      "R_t": 1,
+      "T_v": 1,
+      "S_v": 1,
+      "G_v": 1,
+      "D": "DELEGATION_ABSENT",
+      "E": "EXPIRATION_VALID"
+    },
+    "step_role_map": {
+      "refresh_with_delegation": "DELEGATION_CREATE",
+      "download_via_delegation": "SETUP",
+      "refresh_after_delegation_removed": "DELEGATION_REMOVE",
+      "download_after_delegation_removed": "DELEGATED_REPLAY_AFTER_REMOVAL",
+      "final_delegated_role_version": "INTROSPECTION"
+    },
+    "boundary_states": [
+      "DELEGATION_ACTIVE",
+      "DELEGATION_REMOVED"
+    ]
+  }
+]

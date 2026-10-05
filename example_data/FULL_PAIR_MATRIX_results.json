@@ -1,0 +1,3278 @@
+[
+  {
+    "sequence_id": "SEQ-8d5b753e2190",
+    "implementation": "python-tuf",
+    "family": "F4",
+    "transition_1": "DELEGATION_CREATE",
+    "transition_2": "DELEGATION_REMOVE",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "ACCEPT",
+      "ACCEPT"
+    ],
+    "observed_decisions": [
+      "ACCEPT",
+      "ACCEPT"
+    ],
+    "implementation_field": "python-tuf",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-8d5b753e2190",
+    "implementation": "go-tuf-v2",
+    "family": "F4",
+    "transition_1": "DELEGATION_CREATE",
+    "transition_2": "DELEGATION_REMOVE",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "ACCEPT",
+      "ACCEPT"
+    ],
+    "observed_decisions": [
+      "ACCEPT",
+      "ACCEPT"
+    ],
+    "implementation_field": "go-tuf-v2",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-8d5b753e2190",
+    "implementation": "tuf-js",
+    "family": "F4",
+    "transition_1": "DELEGATION_CREATE",
+    "transition_2": "DELEGATION_REMOVE",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "ACCEPT",
+      "ACCEPT"
+    ],
+    "observed_decisions": [
+      "ACCEPT",
+      "ACCEPT"
+    ],
+    "implementation_field": "tuf-js",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-52dcbe80d347",
+    "implementation": "python-tuf",
+    "family": "F3",
+    "transition_1": "DELEGATION_CREATE",
+    "transition_2": "EXPIRE",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "ACCEPT",
+      "REJECT"
+    ],
+    "observed_decisions": [
+      "ACCEPT",
+      "REJECT"
+    ],
+    "implementation_field": "python-tuf",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-52dcbe80d347",
+    "implementation": "go-tuf-v2",
+    "family": "F3",
+    "transition_1": "DELEGATION_CREATE",
+    "transition_2": "EXPIRE",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "ACCEPT",
+      "REJECT"
+    ],
+    "observed_decisions": [
+      "ACCEPT",
+      "REJECT"
+    ],
+    "implementation_field": "go-tuf-v2",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-52dcbe80d347",
+    "implementation": "tuf-js",
+    "family": "F3",
+    "transition_1": "DELEGATION_CREATE",
+    "transition_2": "EXPIRE",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "ACCEPT",
+      "REJECT"
+    ],
+    "observed_decisions": [
+      "ACCEPT",
+      "REJECT"
+    ],
+    "implementation_field": "tuf-js",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-50905676f679",
+    "implementation": "python-tuf",
+    "family": "F1",
+    "transition_1": "DELEGATION_CREATE",
+    "transition_2": "ROOT_ROTATE_INSUF_THRESHOLD",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "ACCEPT",
+      "REJECT"
+    ],
+    "observed_decisions": [
+      "ACCEPT",
+      "REJECT"
+    ],
+    "implementation_field": "python-tuf",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-50905676f679",
+    "implementation": "go-tuf-v2",
+    "family": "F1",
+    "transition_1": "DELEGATION_CREATE",
+    "transition_2": "ROOT_ROTATE_INSUF_THRESHOLD",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "ACCEPT",
+      "REJECT"
+    ],
+    "observed_decisions": [
+      "ACCEPT",
+      "REJECT"
+    ],
+    "implementation_field": "go-tuf-v2",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-50905676f679",
+    "implementation": "tuf-js",
+    "family": "F1",
+    "transition_1": "DELEGATION_CREATE",
+    "transition_2": "ROOT_ROTATE_INSUF_THRESHOLD",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "ACCEPT",
+      "REJECT"
+    ],
+    "observed_decisions": [
+      "ACCEPT",
+      "REJECT"
+    ],
+    "implementation_field": "tuf-js",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-d309ed5d9cd6",
+    "implementation": "python-tuf",
+    "family": "F1",
+    "transition_1": "DELEGATION_CREATE",
+    "transition_2": "ROOT_ROTATE_SKIP",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "ACCEPT",
+      "REJECT"
+    ],
+    "observed_decisions": [
+      "ACCEPT",
+      "REJECT"
+    ],
+    "implementation_field": "python-tuf",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-d309ed5d9cd6",
+    "implementation": "go-tuf-v2",
+    "family": "F1",
+    "transition_1": "DELEGATION_CREATE",
+    "transition_2": "ROOT_ROTATE_SKIP",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "ACCEPT",
+      "REJECT"
+    ],
+    "observed_decisions": [
+      "ACCEPT",
+      "REJECT"
+    ],
+    "implementation_field": "go-tuf-v2",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-d309ed5d9cd6",
+    "implementation": "tuf-js",
+    "family": "F1",
+    "transition_1": "DELEGATION_CREATE",
+    "transition_2": "ROOT_ROTATE_SKIP",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "ACCEPT",
+      "REJECT"
+    ],
+    "observed_decisions": [
+      "ACCEPT",
+      "REJECT"
+    ],
+    "implementation_field": "tuf-js",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-db58358c4733",
+    "implementation": "python-tuf",
+    "family": "F1",
+    "transition_1": "DELEGATION_CREATE",
+    "transition_2": "ROOT_ROTATE_VALID",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "ACCEPT",
+      "ACCEPT"
+    ],
+    "observed_decisions": [
+      "ACCEPT",
+      "ACCEPT"
+    ],
+    "implementation_field": "python-tuf",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-db58358c4733",
+    "implementation": "go-tuf-v2",
+    "family": "F1",
+    "transition_1": "DELEGATION_CREATE",
+    "transition_2": "ROOT_ROTATE_VALID",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "ACCEPT",
+      "ACCEPT"
+    ],
+    "observed_decisions": [
+      "ACCEPT",
+      "ACCEPT"
+    ],
+    "implementation_field": "go-tuf-v2",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-db58358c4733",
+    "implementation": "tuf-js",
+    "family": "F1",
+    "transition_1": "DELEGATION_CREATE",
+    "transition_2": "ROOT_ROTATE_VALID",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "ACCEPT",
+      "ACCEPT"
+    ],
+    "observed_decisions": [
+      "ACCEPT",
+      "ACCEPT"
+    ],
+    "implementation_field": "tuf-js",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-11ac4e8f99de",
+    "implementation": "python-tuf",
+    "family": "F3",
+    "transition_1": "DELEGATION_CREATE",
+    "transition_2": "SNAPSHOT_ADVANCE",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "ACCEPT",
+      "ACCEPT"
+    ],
+    "observed_decisions": [
+      "ACCEPT",
+      "ACCEPT"
+    ],
+    "implementation_field": "python-tuf",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-11ac4e8f99de",
+    "implementation": "go-tuf-v2",
+    "family": "F3",
+    "transition_1": "DELEGATION_CREATE",
+    "transition_2": "SNAPSHOT_ADVANCE",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "ACCEPT",
+      "ACCEPT"
+    ],
+    "observed_decisions": [
+      "ACCEPT",
+      "ACCEPT"
+    ],
+    "implementation_field": "go-tuf-v2",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-11ac4e8f99de",
+    "implementation": "tuf-js",
+    "family": "F3",
+    "transition_1": "DELEGATION_CREATE",
+    "transition_2": "SNAPSHOT_ADVANCE",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "ACCEPT",
+      "ACCEPT"
+    ],
+    "observed_decisions": [
+      "ACCEPT",
+      "ACCEPT"
+    ],
+    "implementation_field": "tuf-js",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-d74cbf22ee16",
+    "implementation": "python-tuf",
+    "family": "F3",
+    "transition_1": "DELEGATION_CREATE",
+    "transition_2": "TIMESTAMP_ADVANCE",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "ACCEPT",
+      "ACCEPT"
+    ],
+    "observed_decisions": [
+      "ACCEPT",
+      "ACCEPT"
+    ],
+    "implementation_field": "python-tuf",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-d74cbf22ee16",
+    "implementation": "go-tuf-v2",
+    "family": "F3",
+    "transition_1": "DELEGATION_CREATE",
+    "transition_2": "TIMESTAMP_ADVANCE",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "ACCEPT",
+      "ACCEPT"
+    ],
+    "observed_decisions": [
+      "ACCEPT",
+      "ACCEPT"
+    ],
+    "implementation_field": "go-tuf-v2",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-d74cbf22ee16",
+    "implementation": "tuf-js",
+    "family": "F3",
+    "transition_1": "DELEGATION_CREATE",
+    "transition_2": "TIMESTAMP_ADVANCE",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "ACCEPT",
+      "ACCEPT"
+    ],
+    "observed_decisions": [
+      "ACCEPT",
+      "ACCEPT"
+    ],
+    "implementation_field": "tuf-js",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-1cab63b1e6f8",
+    "implementation": "python-tuf",
+    "family": "F4",
+    "transition_1": "EXPIRE",
+    "transition_2": "DELEGATION_CREATE",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "observed_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "implementation_field": "python-tuf",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-1cab63b1e6f8",
+    "implementation": "go-tuf-v2",
+    "family": "F4",
+    "transition_1": "EXPIRE",
+    "transition_2": "DELEGATION_CREATE",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "observed_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "implementation_field": "go-tuf-v2",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-1cab63b1e6f8",
+    "implementation": "tuf-js",
+    "family": "F4",
+    "transition_1": "EXPIRE",
+    "transition_2": "DELEGATION_CREATE",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "observed_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "implementation_field": "tuf-js",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-967dc2614fdc",
+    "implementation": "python-tuf",
+    "family": "F3",
+    "transition_1": "EXPIRE",
+    "transition_2": "EXPIRE",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "observed_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "implementation_field": "python-tuf",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-967dc2614fdc",
+    "implementation": "go-tuf-v2",
+    "family": "F3",
+    "transition_1": "EXPIRE",
+    "transition_2": "EXPIRE",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "observed_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "implementation_field": "go-tuf-v2",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-967dc2614fdc",
+    "implementation": "tuf-js",
+    "family": "F3",
+    "transition_1": "EXPIRE",
+    "transition_2": "EXPIRE",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "observed_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "implementation_field": "tuf-js",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-c81ae9f309fd",
+    "implementation": "python-tuf",
+    "family": "F1",
+    "transition_1": "EXPIRE",
+    "transition_2": "ROOT_ROTATE_INSUF_THRESHOLD",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "observed_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "implementation_field": "python-tuf",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-c81ae9f309fd",
+    "implementation": "go-tuf-v2",
+    "family": "F1",
+    "transition_1": "EXPIRE",
+    "transition_2": "ROOT_ROTATE_INSUF_THRESHOLD",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "observed_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "implementation_field": "go-tuf-v2",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-c81ae9f309fd",
+    "implementation": "tuf-js",
+    "family": "F1",
+    "transition_1": "EXPIRE",
+    "transition_2": "ROOT_ROTATE_INSUF_THRESHOLD",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "observed_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "implementation_field": "tuf-js",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-33e605194419",
+    "implementation": "python-tuf",
+    "family": "F1",
+    "transition_1": "EXPIRE",
+    "transition_2": "ROOT_ROTATE_SKIP",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "observed_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "implementation_field": "python-tuf",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-33e605194419",
+    "implementation": "go-tuf-v2",
+    "family": "F1",
+    "transition_1": "EXPIRE",
+    "transition_2": "ROOT_ROTATE_SKIP",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "observed_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "implementation_field": "go-tuf-v2",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-33e605194419",
+    "implementation": "tuf-js",
+    "family": "F1",
+    "transition_1": "EXPIRE",
+    "transition_2": "ROOT_ROTATE_SKIP",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "observed_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "implementation_field": "tuf-js",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-23022027fcf7",
+    "implementation": "python-tuf",
+    "family": "F1",
+    "transition_1": "EXPIRE",
+    "transition_2": "ROOT_ROTATE_VALID",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "observed_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "implementation_field": "python-tuf",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-23022027fcf7",
+    "implementation": "go-tuf-v2",
+    "family": "F1",
+    "transition_1": "EXPIRE",
+    "transition_2": "ROOT_ROTATE_VALID",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "observed_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "implementation_field": "go-tuf-v2",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-23022027fcf7",
+    "implementation": "tuf-js",
+    "family": "F1",
+    "transition_1": "EXPIRE",
+    "transition_2": "ROOT_ROTATE_VALID",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "observed_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "implementation_field": "tuf-js",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-0569efaeaa5c",
+    "implementation": "python-tuf",
+    "family": "F3",
+    "transition_1": "EXPIRE",
+    "transition_2": "SNAPSHOT_ADVANCE",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "observed_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "implementation_field": "python-tuf",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-0569efaeaa5c",
+    "implementation": "go-tuf-v2",
+    "family": "F3",
+    "transition_1": "EXPIRE",
+    "transition_2": "SNAPSHOT_ADVANCE",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "observed_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "implementation_field": "go-tuf-v2",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-0569efaeaa5c",
+    "implementation": "tuf-js",
+    "family": "F3",
+    "transition_1": "EXPIRE",
+    "transition_2": "SNAPSHOT_ADVANCE",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "observed_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "implementation_field": "tuf-js",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-82f95589e173",
+    "implementation": "python-tuf",
+    "family": "F3",
+    "transition_1": "EXPIRE",
+    "transition_2": "TIMESTAMP_ADVANCE",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "observed_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "implementation_field": "python-tuf",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-82f95589e173",
+    "implementation": "go-tuf-v2",
+    "family": "F3",
+    "transition_1": "EXPIRE",
+    "transition_2": "TIMESTAMP_ADVANCE",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "observed_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "implementation_field": "go-tuf-v2",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-82f95589e173",
+    "implementation": "tuf-js",
+    "family": "F3",
+    "transition_1": "EXPIRE",
+    "transition_2": "TIMESTAMP_ADVANCE",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "observed_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "implementation_field": "tuf-js",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-78200d50625d",
+    "implementation": "python-tuf",
+    "family": "F4",
+    "transition_1": "ROOT_ROTATE_INSUF_THRESHOLD",
+    "transition_2": "DELEGATION_CREATE",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "observed_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "implementation_field": "python-tuf",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-78200d50625d",
+    "implementation": "go-tuf-v2",
+    "family": "F4",
+    "transition_1": "ROOT_ROTATE_INSUF_THRESHOLD",
+    "transition_2": "DELEGATION_CREATE",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "observed_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "implementation_field": "go-tuf-v2",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-78200d50625d",
+    "implementation": "tuf-js",
+    "family": "F4",
+    "transition_1": "ROOT_ROTATE_INSUF_THRESHOLD",
+    "transition_2": "DELEGATION_CREATE",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "observed_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "implementation_field": "tuf-js",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-520ac211bff6",
+    "implementation": "python-tuf",
+    "family": "F3",
+    "transition_1": "ROOT_ROTATE_INSUF_THRESHOLD",
+    "transition_2": "EXPIRE",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "observed_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "implementation_field": "python-tuf",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-520ac211bff6",
+    "implementation": "go-tuf-v2",
+    "family": "F3",
+    "transition_1": "ROOT_ROTATE_INSUF_THRESHOLD",
+    "transition_2": "EXPIRE",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "observed_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "implementation_field": "go-tuf-v2",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-520ac211bff6",
+    "implementation": "tuf-js",
+    "family": "F3",
+    "transition_1": "ROOT_ROTATE_INSUF_THRESHOLD",
+    "transition_2": "EXPIRE",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "observed_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "implementation_field": "tuf-js",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-bad881f1ac2a",
+    "implementation": "python-tuf",
+    "family": "F1",
+    "transition_1": "ROOT_ROTATE_INSUF_THRESHOLD",
+    "transition_2": "ROOT_ROTATE_INSUF_THRESHOLD",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "observed_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "implementation_field": "python-tuf",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-bad881f1ac2a",
+    "implementation": "go-tuf-v2",
+    "family": "F1",
+    "transition_1": "ROOT_ROTATE_INSUF_THRESHOLD",
+    "transition_2": "ROOT_ROTATE_INSUF_THRESHOLD",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "observed_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "implementation_field": "go-tuf-v2",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-bad881f1ac2a",
+    "implementation": "tuf-js",
+    "family": "F1",
+    "transition_1": "ROOT_ROTATE_INSUF_THRESHOLD",
+    "transition_2": "ROOT_ROTATE_INSUF_THRESHOLD",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "observed_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "implementation_field": "tuf-js",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-507a17a5eed1",
+    "implementation": "python-tuf",
+    "family": "F1",
+    "transition_1": "ROOT_ROTATE_INSUF_THRESHOLD",
+    "transition_2": "ROOT_ROTATE_SKIP",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "observed_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "implementation_field": "python-tuf",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-507a17a5eed1",
+    "implementation": "go-tuf-v2",
+    "family": "F1",
+    "transition_1": "ROOT_ROTATE_INSUF_THRESHOLD",
+    "transition_2": "ROOT_ROTATE_SKIP",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "observed_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "implementation_field": "go-tuf-v2",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-507a17a5eed1",
+    "implementation": "tuf-js",
+    "family": "F1",
+    "transition_1": "ROOT_ROTATE_INSUF_THRESHOLD",
+    "transition_2": "ROOT_ROTATE_SKIP",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "observed_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "implementation_field": "tuf-js",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-c7bba63e804f",
+    "implementation": "python-tuf",
+    "family": "F1",
+    "transition_1": "ROOT_ROTATE_INSUF_THRESHOLD",
+    "transition_2": "ROOT_ROTATE_VALID",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "REJECT",
+      "ACCEPT"
+    ],
+    "observed_decisions": [
+      "REJECT",
+      "ACCEPT"
+    ],
+    "implementation_field": "python-tuf",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-c7bba63e804f",
+    "implementation": "go-tuf-v2",
+    "family": "F1",
+    "transition_1": "ROOT_ROTATE_INSUF_THRESHOLD",
+    "transition_2": "ROOT_ROTATE_VALID",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "REJECT",
+      "ACCEPT"
+    ],
+    "observed_decisions": [
+      "REJECT",
+      "ACCEPT"
+    ],
+    "implementation_field": "go-tuf-v2",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-c7bba63e804f",
+    "implementation": "tuf-js",
+    "family": "F1",
+    "transition_1": "ROOT_ROTATE_INSUF_THRESHOLD",
+    "transition_2": "ROOT_ROTATE_VALID",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "REJECT",
+      "ACCEPT"
+    ],
+    "observed_decisions": [
+      "REJECT",
+      "ACCEPT"
+    ],
+    "implementation_field": "tuf-js",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-815eed854e8f",
+    "implementation": "python-tuf",
+    "family": "F3",
+    "transition_1": "ROOT_ROTATE_INSUF_THRESHOLD",
+    "transition_2": "SNAPSHOT_ADVANCE",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "observed_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "implementation_field": "python-tuf",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-815eed854e8f",
+    "implementation": "go-tuf-v2",
+    "family": "F3",
+    "transition_1": "ROOT_ROTATE_INSUF_THRESHOLD",
+    "transition_2": "SNAPSHOT_ADVANCE",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "observed_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "implementation_field": "go-tuf-v2",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-815eed854e8f",
+    "implementation": "tuf-js",
+    "family": "F3",
+    "transition_1": "ROOT_ROTATE_INSUF_THRESHOLD",
+    "transition_2": "SNAPSHOT_ADVANCE",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "observed_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "implementation_field": "tuf-js",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-c67edb601432",
+    "implementation": "python-tuf",
+    "family": "F3",
+    "transition_1": "ROOT_ROTATE_INSUF_THRESHOLD",
+    "transition_2": "TIMESTAMP_ADVANCE",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "observed_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "implementation_field": "python-tuf",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-c67edb601432",
+    "implementation": "go-tuf-v2",
+    "family": "F3",
+    "transition_1": "ROOT_ROTATE_INSUF_THRESHOLD",
+    "transition_2": "TIMESTAMP_ADVANCE",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "observed_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "implementation_field": "go-tuf-v2",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-c67edb601432",
+    "implementation": "tuf-js",
+    "family": "F3",
+    "transition_1": "ROOT_ROTATE_INSUF_THRESHOLD",
+    "transition_2": "TIMESTAMP_ADVANCE",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "observed_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "implementation_field": "tuf-js",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-f5bdc26bb294",
+    "implementation": "python-tuf",
+    "family": "F4",
+    "transition_1": "ROOT_ROTATE_SKIP",
+    "transition_2": "DELEGATION_CREATE",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "observed_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "implementation_field": "python-tuf",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-f5bdc26bb294",
+    "implementation": "go-tuf-v2",
+    "family": "F4",
+    "transition_1": "ROOT_ROTATE_SKIP",
+    "transition_2": "DELEGATION_CREATE",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "observed_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "implementation_field": "go-tuf-v2",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-f5bdc26bb294",
+    "implementation": "tuf-js",
+    "family": "F4",
+    "transition_1": "ROOT_ROTATE_SKIP",
+    "transition_2": "DELEGATION_CREATE",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "observed_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "implementation_field": "tuf-js",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-42a01e25b476",
+    "implementation": "python-tuf",
+    "family": "F3",
+    "transition_1": "ROOT_ROTATE_SKIP",
+    "transition_2": "EXPIRE",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "observed_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "implementation_field": "python-tuf",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-42a01e25b476",
+    "implementation": "go-tuf-v2",
+    "family": "F3",
+    "transition_1": "ROOT_ROTATE_SKIP",
+    "transition_2": "EXPIRE",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "observed_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "implementation_field": "go-tuf-v2",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-42a01e25b476",
+    "implementation": "tuf-js",
+    "family": "F3",
+    "transition_1": "ROOT_ROTATE_SKIP",
+    "transition_2": "EXPIRE",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "observed_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "implementation_field": "tuf-js",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-0f593a980bca",
+    "implementation": "python-tuf",
+    "family": "F1",
+    "transition_1": "ROOT_ROTATE_SKIP",
+    "transition_2": "ROOT_ROTATE_INSUF_THRESHOLD",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "observed_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "implementation_field": "python-tuf",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-0f593a980bca",
+    "implementation": "go-tuf-v2",
+    "family": "F1",
+    "transition_1": "ROOT_ROTATE_SKIP",
+    "transition_2": "ROOT_ROTATE_INSUF_THRESHOLD",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "observed_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "implementation_field": "go-tuf-v2",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-0f593a980bca",
+    "implementation": "tuf-js",
+    "family": "F1",
+    "transition_1": "ROOT_ROTATE_SKIP",
+    "transition_2": "ROOT_ROTATE_INSUF_THRESHOLD",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "observed_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "implementation_field": "tuf-js",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-baf32ed7926e",
+    "implementation": "python-tuf",
+    "family": "F1",
+    "transition_1": "ROOT_ROTATE_SKIP",
+    "transition_2": "ROOT_ROTATE_SKIP",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "observed_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "implementation_field": "python-tuf",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-baf32ed7926e",
+    "implementation": "go-tuf-v2",
+    "family": "F1",
+    "transition_1": "ROOT_ROTATE_SKIP",
+    "transition_2": "ROOT_ROTATE_SKIP",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "observed_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "implementation_field": "go-tuf-v2",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-baf32ed7926e",
+    "implementation": "tuf-js",
+    "family": "F1",
+    "transition_1": "ROOT_ROTATE_SKIP",
+    "transition_2": "ROOT_ROTATE_SKIP",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "observed_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "implementation_field": "tuf-js",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-7d66e890ab3a",
+    "implementation": "python-tuf",
+    "family": "F1",
+    "transition_1": "ROOT_ROTATE_SKIP",
+    "transition_2": "ROOT_ROTATE_VALID",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "REJECT",
+      "ACCEPT"
+    ],
+    "observed_decisions": [
+      "REJECT",
+      "ACCEPT"
+    ],
+    "implementation_field": "python-tuf",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-7d66e890ab3a",
+    "implementation": "go-tuf-v2",
+    "family": "F1",
+    "transition_1": "ROOT_ROTATE_SKIP",
+    "transition_2": "ROOT_ROTATE_VALID",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "REJECT",
+      "ACCEPT"
+    ],
+    "observed_decisions": [
+      "REJECT",
+      "ACCEPT"
+    ],
+    "implementation_field": "go-tuf-v2",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-7d66e890ab3a",
+    "implementation": "tuf-js",
+    "family": "F1",
+    "transition_1": "ROOT_ROTATE_SKIP",
+    "transition_2": "ROOT_ROTATE_VALID",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "REJECT",
+      "ACCEPT"
+    ],
+    "observed_decisions": [
+      "REJECT",
+      "ACCEPT"
+    ],
+    "implementation_field": "tuf-js",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-371556280f49",
+    "implementation": "python-tuf",
+    "family": "F3",
+    "transition_1": "ROOT_ROTATE_SKIP",
+    "transition_2": "SNAPSHOT_ADVANCE",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "observed_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "implementation_field": "python-tuf",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-371556280f49",
+    "implementation": "go-tuf-v2",
+    "family": "F3",
+    "transition_1": "ROOT_ROTATE_SKIP",
+    "transition_2": "SNAPSHOT_ADVANCE",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "observed_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "implementation_field": "go-tuf-v2",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-371556280f49",
+    "implementation": "tuf-js",
+    "family": "F3",
+    "transition_1": "ROOT_ROTATE_SKIP",
+    "transition_2": "SNAPSHOT_ADVANCE",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "observed_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "implementation_field": "tuf-js",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-0780513a0086",
+    "implementation": "python-tuf",
+    "family": "F3",
+    "transition_1": "ROOT_ROTATE_SKIP",
+    "transition_2": "TIMESTAMP_ADVANCE",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "observed_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "implementation_field": "python-tuf",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-0780513a0086",
+    "implementation": "go-tuf-v2",
+    "family": "F3",
+    "transition_1": "ROOT_ROTATE_SKIP",
+    "transition_2": "TIMESTAMP_ADVANCE",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "observed_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "implementation_field": "go-tuf-v2",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-0780513a0086",
+    "implementation": "tuf-js",
+    "family": "F3",
+    "transition_1": "ROOT_ROTATE_SKIP",
+    "transition_2": "TIMESTAMP_ADVANCE",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "observed_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "implementation_field": "tuf-js",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-269e3f4ed4e6",
+    "implementation": "python-tuf",
+    "family": "F4",
+    "transition_1": "ROOT_ROTATE_VALID",
+    "transition_2": "DELEGATION_CREATE",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "ACCEPT",
+      "ACCEPT"
+    ],
+    "observed_decisions": [
+      "ACCEPT",
+      "ACCEPT"
+    ],
+    "implementation_field": "python-tuf",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-269e3f4ed4e6",
+    "implementation": "go-tuf-v2",
+    "family": "F4",
+    "transition_1": "ROOT_ROTATE_VALID",
+    "transition_2": "DELEGATION_CREATE",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "ACCEPT",
+      "ACCEPT"
+    ],
+    "observed_decisions": [
+      "ACCEPT",
+      "ACCEPT"
+    ],
+    "implementation_field": "go-tuf-v2",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-269e3f4ed4e6",
+    "implementation": "tuf-js",
+    "family": "F4",
+    "transition_1": "ROOT_ROTATE_VALID",
+    "transition_2": "DELEGATION_CREATE",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "ACCEPT",
+      "ACCEPT"
+    ],
+    "observed_decisions": [
+      "ACCEPT",
+      "ACCEPT"
+    ],
+    "implementation_field": "tuf-js",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-6d98596fdf03",
+    "implementation": "python-tuf",
+    "family": "F3",
+    "transition_1": "ROOT_ROTATE_VALID",
+    "transition_2": "EXPIRE",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "ACCEPT",
+      "REJECT"
+    ],
+    "observed_decisions": [
+      "ACCEPT",
+      "REJECT"
+    ],
+    "implementation_field": "python-tuf",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-6d98596fdf03",
+    "implementation": "go-tuf-v2",
+    "family": "F3",
+    "transition_1": "ROOT_ROTATE_VALID",
+    "transition_2": "EXPIRE",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "ACCEPT",
+      "REJECT"
+    ],
+    "observed_decisions": [
+      "ACCEPT",
+      "REJECT"
+    ],
+    "implementation_field": "go-tuf-v2",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-6d98596fdf03",
+    "implementation": "tuf-js",
+    "family": "F3",
+    "transition_1": "ROOT_ROTATE_VALID",
+    "transition_2": "EXPIRE",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "ACCEPT",
+      "REJECT"
+    ],
+    "observed_decisions": [
+      "ACCEPT",
+      "REJECT"
+    ],
+    "implementation_field": "tuf-js",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-cef8b7418a8e",
+    "implementation": "python-tuf",
+    "family": "F5",
+    "transition_1": "ROOT_ROTATE_VALID",
+    "transition_2": "METADATA_BY_REMOVED_KEY",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "ACCEPT",
+      "REJECT"
+    ],
+    "observed_decisions": [
+      "ACCEPT",
+      "REJECT"
+    ],
+    "implementation_field": "python-tuf",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-cef8b7418a8e",
+    "implementation": "go-tuf-v2",
+    "family": "F5",
+    "transition_1": "ROOT_ROTATE_VALID",
+    "transition_2": "METADATA_BY_REMOVED_KEY",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "ACCEPT",
+      "REJECT"
+    ],
+    "observed_decisions": [
+      "ACCEPT",
+      "REJECT"
+    ],
+    "implementation_field": "go-tuf-v2",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-cef8b7418a8e",
+    "implementation": "tuf-js",
+    "family": "F5",
+    "transition_1": "ROOT_ROTATE_VALID",
+    "transition_2": "METADATA_BY_REMOVED_KEY",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "ACCEPT",
+      "REJECT"
+    ],
+    "observed_decisions": [
+      "ACCEPT",
+      "REJECT"
+    ],
+    "implementation_field": "tuf-js",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-378326e15b03",
+    "implementation": "python-tuf",
+    "family": "F1",
+    "transition_1": "ROOT_ROTATE_VALID",
+    "transition_2": "ROOT_ROTATE_INSUF_THRESHOLD",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "ACCEPT",
+      "REJECT"
+    ],
+    "observed_decisions": [
+      "ACCEPT",
+      "REJECT"
+    ],
+    "implementation_field": "python-tuf",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-378326e15b03",
+    "implementation": "go-tuf-v2",
+    "family": "F1",
+    "transition_1": "ROOT_ROTATE_VALID",
+    "transition_2": "ROOT_ROTATE_INSUF_THRESHOLD",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "ACCEPT",
+      "REJECT"
+    ],
+    "observed_decisions": [
+      "ACCEPT",
+      "REJECT"
+    ],
+    "implementation_field": "go-tuf-v2",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-378326e15b03",
+    "implementation": "tuf-js",
+    "family": "F1",
+    "transition_1": "ROOT_ROTATE_VALID",
+    "transition_2": "ROOT_ROTATE_INSUF_THRESHOLD",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "ACCEPT",
+      "REJECT"
+    ],
+    "observed_decisions": [
+      "ACCEPT",
+      "REJECT"
+    ],
+    "implementation_field": "tuf-js",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-1cda546d357e",
+    "implementation": "python-tuf",
+    "family": "F1",
+    "transition_1": "ROOT_ROTATE_VALID",
+    "transition_2": "ROOT_ROTATE_SKIP",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "ACCEPT",
+      "REJECT"
+    ],
+    "observed_decisions": [
+      "ACCEPT",
+      "REJECT"
+    ],
+    "implementation_field": "python-tuf",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-1cda546d357e",
+    "implementation": "go-tuf-v2",
+    "family": "F1",
+    "transition_1": "ROOT_ROTATE_VALID",
+    "transition_2": "ROOT_ROTATE_SKIP",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "ACCEPT",
+      "REJECT"
+    ],
+    "observed_decisions": [
+      "ACCEPT",
+      "REJECT"
+    ],
+    "implementation_field": "go-tuf-v2",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-1cda546d357e",
+    "implementation": "tuf-js",
+    "family": "F1",
+    "transition_1": "ROOT_ROTATE_VALID",
+    "transition_2": "ROOT_ROTATE_SKIP",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "ACCEPT",
+      "REJECT"
+    ],
+    "observed_decisions": [
+      "ACCEPT",
+      "REJECT"
+    ],
+    "implementation_field": "tuf-js",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-f72973cf97c5",
+    "implementation": "python-tuf",
+    "family": "F1",
+    "transition_1": "ROOT_ROTATE_VALID",
+    "transition_2": "ROOT_ROTATE_VALID",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "ACCEPT",
+      "ACCEPT"
+    ],
+    "observed_decisions": [
+      "ACCEPT",
+      "ACCEPT"
+    ],
+    "implementation_field": "python-tuf",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-f72973cf97c5",
+    "implementation": "go-tuf-v2",
+    "family": "F1",
+    "transition_1": "ROOT_ROTATE_VALID",
+    "transition_2": "ROOT_ROTATE_VALID",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "ACCEPT",
+      "ACCEPT"
+    ],
+    "observed_decisions": [
+      "ACCEPT",
+      "ACCEPT"
+    ],
+    "implementation_field": "go-tuf-v2",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-f72973cf97c5",
+    "implementation": "tuf-js",
+    "family": "F1",
+    "transition_1": "ROOT_ROTATE_VALID",
+    "transition_2": "ROOT_ROTATE_VALID",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "ACCEPT",
+      "ACCEPT"
+    ],
+    "observed_decisions": [
+      "ACCEPT",
+      "ACCEPT"
+    ],
+    "implementation_field": "tuf-js",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-c413734fdaca",
+    "implementation": "python-tuf",
+    "family": "F3",
+    "transition_1": "ROOT_ROTATE_VALID",
+    "transition_2": "SNAPSHOT_ADVANCE",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "ACCEPT",
+      "ACCEPT"
+    ],
+    "observed_decisions": [
+      "ACCEPT",
+      "ACCEPT"
+    ],
+    "implementation_field": "python-tuf",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-c413734fdaca",
+    "implementation": "go-tuf-v2",
+    "family": "F3",
+    "transition_1": "ROOT_ROTATE_VALID",
+    "transition_2": "SNAPSHOT_ADVANCE",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "ACCEPT",
+      "ACCEPT"
+    ],
+    "observed_decisions": [
+      "ACCEPT",
+      "ACCEPT"
+    ],
+    "implementation_field": "go-tuf-v2",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-c413734fdaca",
+    "implementation": "tuf-js",
+    "family": "F3",
+    "transition_1": "ROOT_ROTATE_VALID",
+    "transition_2": "SNAPSHOT_ADVANCE",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "ACCEPT",
+      "ACCEPT"
+    ],
+    "observed_decisions": [
+      "ACCEPT",
+      "ACCEPT"
+    ],
+    "implementation_field": "tuf-js",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-2b2d1d085328",
+    "implementation": "python-tuf",
+    "family": "F3",
+    "transition_1": "ROOT_ROTATE_VALID",
+    "transition_2": "TIMESTAMP_ADVANCE",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "ACCEPT",
+      "ACCEPT"
+    ],
+    "observed_decisions": [
+      "ACCEPT",
+      "ACCEPT"
+    ],
+    "implementation_field": "python-tuf",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-2b2d1d085328",
+    "implementation": "go-tuf-v2",
+    "family": "F3",
+    "transition_1": "ROOT_ROTATE_VALID",
+    "transition_2": "TIMESTAMP_ADVANCE",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "ACCEPT",
+      "ACCEPT"
+    ],
+    "observed_decisions": [
+      "ACCEPT",
+      "ACCEPT"
+    ],
+    "implementation_field": "go-tuf-v2",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-2b2d1d085328",
+    "implementation": "tuf-js",
+    "family": "F3",
+    "transition_1": "ROOT_ROTATE_VALID",
+    "transition_2": "TIMESTAMP_ADVANCE",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "ACCEPT",
+      "ACCEPT"
+    ],
+    "observed_decisions": [
+      "ACCEPT",
+      "ACCEPT"
+    ],
+    "implementation_field": "tuf-js",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-563c4b2fd9d7",
+    "implementation": "python-tuf",
+    "family": "F4",
+    "transition_1": "SNAPSHOT_ADVANCE",
+    "transition_2": "DELEGATION_CREATE",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "ACCEPT",
+      "ACCEPT"
+    ],
+    "observed_decisions": [
+      "ACCEPT",
+      "ACCEPT"
+    ],
+    "implementation_field": "python-tuf",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-563c4b2fd9d7",
+    "implementation": "go-tuf-v2",
+    "family": "F4",
+    "transition_1": "SNAPSHOT_ADVANCE",
+    "transition_2": "DELEGATION_CREATE",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "ACCEPT",
+      "ACCEPT"
+    ],
+    "observed_decisions": [
+      "ACCEPT",
+      "ACCEPT"
+    ],
+    "implementation_field": "go-tuf-v2",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-563c4b2fd9d7",
+    "implementation": "tuf-js",
+    "family": "F4",
+    "transition_1": "SNAPSHOT_ADVANCE",
+    "transition_2": "DELEGATION_CREATE",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "ACCEPT",
+      "ACCEPT"
+    ],
+    "observed_decisions": [
+      "ACCEPT",
+      "ACCEPT"
+    ],
+    "implementation_field": "tuf-js",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-54962e31b3f7",
+    "implementation": "python-tuf",
+    "family": "F3",
+    "transition_1": "SNAPSHOT_ADVANCE",
+    "transition_2": "EXPIRE",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "ACCEPT",
+      "REJECT"
+    ],
+    "observed_decisions": [
+      "ACCEPT",
+      "REJECT"
+    ],
+    "implementation_field": "python-tuf",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-54962e31b3f7",
+    "implementation": "go-tuf-v2",
+    "family": "F3",
+    "transition_1": "SNAPSHOT_ADVANCE",
+    "transition_2": "EXPIRE",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "ACCEPT",
+      "REJECT"
+    ],
+    "observed_decisions": [
+      "ACCEPT",
+      "REJECT"
+    ],
+    "implementation_field": "go-tuf-v2",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-54962e31b3f7",
+    "implementation": "tuf-js",
+    "family": "F3",
+    "transition_1": "SNAPSHOT_ADVANCE",
+    "transition_2": "EXPIRE",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "ACCEPT",
+      "REJECT"
+    ],
+    "observed_decisions": [
+      "ACCEPT",
+      "REJECT"
+    ],
+    "implementation_field": "tuf-js",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-31d709ba83e0",
+    "implementation": "python-tuf",
+    "family": "F1",
+    "transition_1": "SNAPSHOT_ADVANCE",
+    "transition_2": "ROOT_ROTATE_INSUF_THRESHOLD",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "ACCEPT",
+      "REJECT"
+    ],
+    "observed_decisions": [
+      "ACCEPT",
+      "REJECT"
+    ],
+    "implementation_field": "python-tuf",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-31d709ba83e0",
+    "implementation": "go-tuf-v2",
+    "family": "F1",
+    "transition_1": "SNAPSHOT_ADVANCE",
+    "transition_2": "ROOT_ROTATE_INSUF_THRESHOLD",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "ACCEPT",
+      "REJECT"
+    ],
+    "observed_decisions": [
+      "ACCEPT",
+      "REJECT"
+    ],
+    "implementation_field": "go-tuf-v2",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-31d709ba83e0",
+    "implementation": "tuf-js",
+    "family": "F1",
+    "transition_1": "SNAPSHOT_ADVANCE",
+    "transition_2": "ROOT_ROTATE_INSUF_THRESHOLD",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "ACCEPT",
+      "REJECT"
+    ],
+    "observed_decisions": [
+      "ACCEPT",
+      "REJECT"
+    ],
+    "implementation_field": "tuf-js",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-851c20680a8b",
+    "implementation": "python-tuf",
+    "family": "F1",
+    "transition_1": "SNAPSHOT_ADVANCE",
+    "transition_2": "ROOT_ROTATE_SKIP",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "ACCEPT",
+      "REJECT"
+    ],
+    "observed_decisions": [
+      "ACCEPT",
+      "REJECT"
+    ],
+    "implementation_field": "python-tuf",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-851c20680a8b",
+    "implementation": "go-tuf-v2",
+    "family": "F1",
+    "transition_1": "SNAPSHOT_ADVANCE",
+    "transition_2": "ROOT_ROTATE_SKIP",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "ACCEPT",
+      "REJECT"
+    ],
+    "observed_decisions": [
+      "ACCEPT",
+      "REJECT"
+    ],
+    "implementation_field": "go-tuf-v2",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-851c20680a8b",
+    "implementation": "tuf-js",
+    "family": "F1",
+    "transition_1": "SNAPSHOT_ADVANCE",
+    "transition_2": "ROOT_ROTATE_SKIP",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "ACCEPT",
+      "REJECT"
+    ],
+    "observed_decisions": [
+      "ACCEPT",
+      "REJECT"
+    ],
+    "implementation_field": "tuf-js",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-98aaabb222be",
+    "implementation": "python-tuf",
+    "family": "F1",
+    "transition_1": "SNAPSHOT_ADVANCE",
+    "transition_2": "ROOT_ROTATE_VALID",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "ACCEPT",
+      "ACCEPT"
+    ],
+    "observed_decisions": [
+      "ACCEPT",
+      "ACCEPT"
+    ],
+    "implementation_field": "python-tuf",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-98aaabb222be",
+    "implementation": "go-tuf-v2",
+    "family": "F1",
+    "transition_1": "SNAPSHOT_ADVANCE",
+    "transition_2": "ROOT_ROTATE_VALID",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "ACCEPT",
+      "ACCEPT"
+    ],
+    "observed_decisions": [
+      "ACCEPT",
+      "ACCEPT"
+    ],
+    "implementation_field": "go-tuf-v2",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-98aaabb222be",
+    "implementation": "tuf-js",
+    "family": "F1",
+    "transition_1": "SNAPSHOT_ADVANCE",
+    "transition_2": "ROOT_ROTATE_VALID",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "ACCEPT",
+      "ACCEPT"
+    ],
+    "observed_decisions": [
+      "ACCEPT",
+      "ACCEPT"
+    ],
+    "implementation_field": "tuf-js",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-293792e63ef2",
+    "implementation": "python-tuf",
+    "family": "F3",
+    "transition_1": "SNAPSHOT_ADVANCE",
+    "transition_2": "SNAPSHOT_ADVANCE",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "ACCEPT",
+      "ACCEPT"
+    ],
+    "observed_decisions": [
+      "ACCEPT",
+      "ACCEPT"
+    ],
+    "implementation_field": "python-tuf",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-293792e63ef2",
+    "implementation": "go-tuf-v2",
+    "family": "F3",
+    "transition_1": "SNAPSHOT_ADVANCE",
+    "transition_2": "SNAPSHOT_ADVANCE",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "ACCEPT",
+      "ACCEPT"
+    ],
+    "observed_decisions": [
+      "ACCEPT",
+      "ACCEPT"
+    ],
+    "implementation_field": "go-tuf-v2",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-293792e63ef2",
+    "implementation": "tuf-js",
+    "family": "F3",
+    "transition_1": "SNAPSHOT_ADVANCE",
+    "transition_2": "SNAPSHOT_ADVANCE",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "ACCEPT",
+      "ACCEPT"
+    ],
+    "observed_decisions": [
+      "ACCEPT",
+      "ACCEPT"
+    ],
+    "implementation_field": "tuf-js",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-9cbbd756c2d2",
+    "implementation": "python-tuf",
+    "family": "F3",
+    "transition_1": "SNAPSHOT_ADVANCE",
+    "transition_2": "SNAPSHOT_REPLAY",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "ACCEPT",
+      "REJECT"
+    ],
+    "observed_decisions": [
+      "ACCEPT",
+      "REJECT"
+    ],
+    "implementation_field": "python-tuf",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-9cbbd756c2d2",
+    "implementation": "go-tuf-v2",
+    "family": "F3",
+    "transition_1": "SNAPSHOT_ADVANCE",
+    "transition_2": "SNAPSHOT_REPLAY",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "ACCEPT",
+      "REJECT"
+    ],
+    "observed_decisions": [
+      "ACCEPT",
+      "REJECT"
+    ],
+    "implementation_field": "go-tuf-v2",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-9cbbd756c2d2",
+    "implementation": "tuf-js",
+    "family": "F3",
+    "transition_1": "SNAPSHOT_ADVANCE",
+    "transition_2": "SNAPSHOT_REPLAY",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "ACCEPT",
+      "REJECT"
+    ],
+    "observed_decisions": [
+      "ACCEPT",
+      "REJECT"
+    ],
+    "implementation_field": "tuf-js",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-6c73b043a66c",
+    "implementation": "python-tuf",
+    "family": "F3",
+    "transition_1": "SNAPSHOT_ADVANCE",
+    "transition_2": "TIMESTAMP_ADVANCE",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "ACCEPT",
+      "ACCEPT"
+    ],
+    "observed_decisions": [
+      "ACCEPT",
+      "ACCEPT"
+    ],
+    "implementation_field": "python-tuf",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-6c73b043a66c",
+    "implementation": "go-tuf-v2",
+    "family": "F3",
+    "transition_1": "SNAPSHOT_ADVANCE",
+    "transition_2": "TIMESTAMP_ADVANCE",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "ACCEPT",
+      "ACCEPT"
+    ],
+    "observed_decisions": [
+      "ACCEPT",
+      "ACCEPT"
+    ],
+    "implementation_field": "go-tuf-v2",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-6c73b043a66c",
+    "implementation": "tuf-js",
+    "family": "F3",
+    "transition_1": "SNAPSHOT_ADVANCE",
+    "transition_2": "TIMESTAMP_ADVANCE",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "ACCEPT",
+      "ACCEPT"
+    ],
+    "observed_decisions": [
+      "ACCEPT",
+      "ACCEPT"
+    ],
+    "implementation_field": "tuf-js",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-2916fa09f2cc",
+    "implementation": "python-tuf",
+    "family": "F4",
+    "transition_1": "TIMESTAMP_ADVANCE",
+    "transition_2": "DELEGATION_CREATE",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "ACCEPT",
+      "ACCEPT"
+    ],
+    "observed_decisions": [
+      "ACCEPT",
+      "ACCEPT"
+    ],
+    "implementation_field": "python-tuf",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-2916fa09f2cc",
+    "implementation": "go-tuf-v2",
+    "family": "F4",
+    "transition_1": "TIMESTAMP_ADVANCE",
+    "transition_2": "DELEGATION_CREATE",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "ACCEPT",
+      "ACCEPT"
+    ],
+    "observed_decisions": [
+      "ACCEPT",
+      "ACCEPT"
+    ],
+    "implementation_field": "go-tuf-v2",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-2916fa09f2cc",
+    "implementation": "tuf-js",
+    "family": "F4",
+    "transition_1": "TIMESTAMP_ADVANCE",
+    "transition_2": "DELEGATION_CREATE",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "ACCEPT",
+      "ACCEPT"
+    ],
+    "observed_decisions": [
+      "ACCEPT",
+      "ACCEPT"
+    ],
+    "implementation_field": "tuf-js",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-e51a9f0a9dc9",
+    "implementation": "python-tuf",
+    "family": "F3",
+    "transition_1": "TIMESTAMP_ADVANCE",
+    "transition_2": "EXPIRE",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "ACCEPT",
+      "REJECT"
+    ],
+    "observed_decisions": [
+      "ACCEPT",
+      "REJECT"
+    ],
+    "implementation_field": "python-tuf",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-e51a9f0a9dc9",
+    "implementation": "go-tuf-v2",
+    "family": "F3",
+    "transition_1": "TIMESTAMP_ADVANCE",
+    "transition_2": "EXPIRE",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "ACCEPT",
+      "REJECT"
+    ],
+    "observed_decisions": [
+      "ACCEPT",
+      "REJECT"
+    ],
+    "implementation_field": "go-tuf-v2",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-e51a9f0a9dc9",
+    "implementation": "tuf-js",
+    "family": "F3",
+    "transition_1": "TIMESTAMP_ADVANCE",
+    "transition_2": "EXPIRE",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "ACCEPT",
+      "REJECT"
+    ],
+    "observed_decisions": [
+      "ACCEPT",
+      "REJECT"
+    ],
+    "implementation_field": "tuf-js",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-cfd8c776561c",
+    "implementation": "python-tuf",
+    "family": "F1",
+    "transition_1": "TIMESTAMP_ADVANCE",
+    "transition_2": "ROOT_ROTATE_INSUF_THRESHOLD",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "ACCEPT",
+      "REJECT"
+    ],
+    "observed_decisions": [
+      "ACCEPT",
+      "REJECT"
+    ],
+    "implementation_field": "python-tuf",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-cfd8c776561c",
+    "implementation": "go-tuf-v2",
+    "family": "F1",
+    "transition_1": "TIMESTAMP_ADVANCE",
+    "transition_2": "ROOT_ROTATE_INSUF_THRESHOLD",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "ACCEPT",
+      "REJECT"
+    ],
+    "observed_decisions": [
+      "ACCEPT",
+      "REJECT"
+    ],
+    "implementation_field": "go-tuf-v2",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-cfd8c776561c",
+    "implementation": "tuf-js",
+    "family": "F1",
+    "transition_1": "TIMESTAMP_ADVANCE",
+    "transition_2": "ROOT_ROTATE_INSUF_THRESHOLD",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "ACCEPT",
+      "REJECT"
+    ],
+    "observed_decisions": [
+      "ACCEPT",
+      "REJECT"
+    ],
+    "implementation_field": "tuf-js",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-527321b94ca1",
+    "implementation": "python-tuf",
+    "family": "F1",
+    "transition_1": "TIMESTAMP_ADVANCE",
+    "transition_2": "ROOT_ROTATE_SKIP",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "ACCEPT",
+      "REJECT"
+    ],
+    "observed_decisions": [
+      "ACCEPT",
+      "REJECT"
+    ],
+    "implementation_field": "python-tuf",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-527321b94ca1",
+    "implementation": "go-tuf-v2",
+    "family": "F1",
+    "transition_1": "TIMESTAMP_ADVANCE",
+    "transition_2": "ROOT_ROTATE_SKIP",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "ACCEPT",
+      "REJECT"
+    ],
+    "observed_decisions": [
+      "ACCEPT",
+      "REJECT"
+    ],
+    "implementation_field": "go-tuf-v2",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-527321b94ca1",
+    "implementation": "tuf-js",
+    "family": "F1",
+    "transition_1": "TIMESTAMP_ADVANCE",
+    "transition_2": "ROOT_ROTATE_SKIP",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "ACCEPT",
+      "REJECT"
+    ],
+    "observed_decisions": [
+      "ACCEPT",
+      "REJECT"
+    ],
+    "implementation_field": "tuf-js",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-f6c808753161",
+    "implementation": "python-tuf",
+    "family": "F1",
+    "transition_1": "TIMESTAMP_ADVANCE",
+    "transition_2": "ROOT_ROTATE_VALID",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "ACCEPT",
+      "ACCEPT"
+    ],
+    "observed_decisions": [
+      "ACCEPT",
+      "ACCEPT"
+    ],
+    "implementation_field": "python-tuf",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-f6c808753161",
+    "implementation": "go-tuf-v2",
+    "family": "F1",
+    "transition_1": "TIMESTAMP_ADVANCE",
+    "transition_2": "ROOT_ROTATE_VALID",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "ACCEPT",
+      "ACCEPT"
+    ],
+    "observed_decisions": [
+      "ACCEPT",
+      "ACCEPT"
+    ],
+    "implementation_field": "go-tuf-v2",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-f6c808753161",
+    "implementation": "tuf-js",
+    "family": "F1",
+    "transition_1": "TIMESTAMP_ADVANCE",
+    "transition_2": "ROOT_ROTATE_VALID",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "ACCEPT",
+      "ACCEPT"
+    ],
+    "observed_decisions": [
+      "ACCEPT",
+      "ACCEPT"
+    ],
+    "implementation_field": "tuf-js",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-c53c3c179b1c",
+    "implementation": "python-tuf",
+    "family": "F3",
+    "transition_1": "TIMESTAMP_ADVANCE",
+    "transition_2": "SNAPSHOT_ADVANCE",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "ACCEPT",
+      "ACCEPT"
+    ],
+    "observed_decisions": [
+      "ACCEPT",
+      "ACCEPT"
+    ],
+    "implementation_field": "python-tuf",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-c53c3c179b1c",
+    "implementation": "go-tuf-v2",
+    "family": "F3",
+    "transition_1": "TIMESTAMP_ADVANCE",
+    "transition_2": "SNAPSHOT_ADVANCE",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "ACCEPT",
+      "ACCEPT"
+    ],
+    "observed_decisions": [
+      "ACCEPT",
+      "ACCEPT"
+    ],
+    "implementation_field": "go-tuf-v2",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-c53c3c179b1c",
+    "implementation": "tuf-js",
+    "family": "F3",
+    "transition_1": "TIMESTAMP_ADVANCE",
+    "transition_2": "SNAPSHOT_ADVANCE",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "ACCEPT",
+      "ACCEPT"
+    ],
+    "observed_decisions": [
+      "ACCEPT",
+      "ACCEPT"
+    ],
+    "implementation_field": "tuf-js",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-0f454548103a",
+    "implementation": "python-tuf",
+    "family": "F3",
+    "transition_1": "TIMESTAMP_ADVANCE",
+    "transition_2": "TIMESTAMP_ADVANCE",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "ACCEPT",
+      "ACCEPT"
+    ],
+    "observed_decisions": [
+      "ACCEPT",
+      "ACCEPT"
+    ],
+    "implementation_field": "python-tuf",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-0f454548103a",
+    "implementation": "go-tuf-v2",
+    "family": "F3",
+    "transition_1": "TIMESTAMP_ADVANCE",
+    "transition_2": "TIMESTAMP_ADVANCE",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "ACCEPT",
+      "ACCEPT"
+    ],
+    "observed_decisions": [
+      "ACCEPT",
+      "ACCEPT"
+    ],
+    "implementation_field": "go-tuf-v2",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-0f454548103a",
+    "implementation": "tuf-js",
+    "family": "F3",
+    "transition_1": "TIMESTAMP_ADVANCE",
+    "transition_2": "TIMESTAMP_ADVANCE",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "ACCEPT",
+      "ACCEPT"
+    ],
+    "observed_decisions": [
+      "ACCEPT",
+      "ACCEPT"
+    ],
+    "implementation_field": "tuf-js",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-841f6a7b3af0",
+    "implementation": "python-tuf",
+    "family": "F3",
+    "transition_1": "TIMESTAMP_ADVANCE",
+    "transition_2": "TIMESTAMP_REPLAY",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "ACCEPT",
+      "REJECT"
+    ],
+    "observed_decisions": [
+      "ACCEPT",
+      "REJECT"
+    ],
+    "implementation_field": "python-tuf",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-841f6a7b3af0",
+    "implementation": "go-tuf-v2",
+    "family": "F3",
+    "transition_1": "TIMESTAMP_ADVANCE",
+    "transition_2": "TIMESTAMP_REPLAY",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "ACCEPT",
+      "REJECT"
+    ],
+    "observed_decisions": [
+      "ACCEPT",
+      "REJECT"
+    ],
+    "implementation_field": "go-tuf-v2",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  },
+  {
+    "sequence_id": "SEQ-841f6a7b3af0",
+    "implementation": "tuf-js",
+    "family": "F3",
+    "transition_1": "TIMESTAMP_ADVANCE",
+    "transition_2": "TIMESTAMP_REPLAY",
+    "engine_preconditions": "always-constructible (see state_engine.py rule comments)",
+    "engine_expected_decisions": [
+      "ACCEPT",
+      "REJECT"
+    ],
+    "observed_decisions": [
+      "ACCEPT",
+      "REJECT"
+    ],
+    "implementation_field": "tuf-js",
+    "execution_status": "COMPLETED",
+    "match": true,
+    "construction_notes": [],
+    "raw_log_path": "scripts/run_full_pair_matrix.py stdout, this session"
+  }
+]

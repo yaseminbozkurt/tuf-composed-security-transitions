@@ -1,0 +1,542 @@
+[
+  {
+    "sequence_id": "SEQ-1b71a71f8074",
+    "implementation": "python-tuf",
+    "family": "F1",
+    "transitions": [
+      "ROOT_ROTATE_INSUF_THRESHOLD",
+      "ROOT_ROTATE_INSUF_THRESHOLD"
+    ],
+    "predicted_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "observed_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "match": true
+  },
+  {
+    "sequence_id": "SEQ-1b71a71f8074",
+    "implementation": "go-tuf-v2",
+    "family": "F1",
+    "transitions": [
+      "ROOT_ROTATE_INSUF_THRESHOLD",
+      "ROOT_ROTATE_INSUF_THRESHOLD"
+    ],
+    "predicted_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "observed_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "match": true
+  },
+  {
+    "sequence_id": "SEQ-1b71a71f8074",
+    "implementation": "tuf-js",
+    "family": "F1",
+    "transitions": [
+      "ROOT_ROTATE_INSUF_THRESHOLD",
+      "ROOT_ROTATE_INSUF_THRESHOLD"
+    ],
+    "predicted_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "observed_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "match": true
+  },
+  {
+    "sequence_id": "SEQ-0cfa13942eca",
+    "implementation": "python-tuf",
+    "family": "F1",
+    "transitions": [
+      "ROOT_ROTATE_INSUF_THRESHOLD",
+      "ROOT_ROTATE_SKIP"
+    ],
+    "predicted_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "observed_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "match": true
+  },
+  {
+    "sequence_id": "SEQ-0cfa13942eca",
+    "implementation": "go-tuf-v2",
+    "family": "F1",
+    "transitions": [
+      "ROOT_ROTATE_INSUF_THRESHOLD",
+      "ROOT_ROTATE_SKIP"
+    ],
+    "predicted_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "observed_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "match": true
+  },
+  {
+    "sequence_id": "SEQ-0cfa13942eca",
+    "implementation": "tuf-js",
+    "family": "F1",
+    "transitions": [
+      "ROOT_ROTATE_INSUF_THRESHOLD",
+      "ROOT_ROTATE_SKIP"
+    ],
+    "predicted_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "observed_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "match": true
+  },
+  {
+    "sequence_id": "SEQ-1c8bd14061b4",
+    "implementation": "python-tuf",
+    "family": "F1",
+    "transitions": [
+      "ROOT_ROTATE_INSUF_THRESHOLD",
+      "ROOT_ROTATE_VALID"
+    ],
+    "predicted_decisions": [
+      "REJECT",
+      "ACCEPT"
+    ],
+    "observed_decisions": [
+      "REJECT",
+      "ACCEPT"
+    ],
+    "match": true
+  },
+  {
+    "sequence_id": "SEQ-1c8bd14061b4",
+    "implementation": "go-tuf-v2",
+    "family": "F1",
+    "transitions": [
+      "ROOT_ROTATE_INSUF_THRESHOLD",
+      "ROOT_ROTATE_VALID"
+    ],
+    "predicted_decisions": [
+      "REJECT",
+      "ACCEPT"
+    ],
+    "observed_decisions": [
+      "REJECT",
+      "ACCEPT"
+    ],
+    "match": true
+  },
+  {
+    "sequence_id": "SEQ-1c8bd14061b4",
+    "implementation": "tuf-js",
+    "family": "F1",
+    "transitions": [
+      "ROOT_ROTATE_INSUF_THRESHOLD",
+      "ROOT_ROTATE_VALID"
+    ],
+    "predicted_decisions": [
+      "REJECT",
+      "ACCEPT"
+    ],
+    "observed_decisions": [
+      "REJECT",
+      "ACCEPT"
+    ],
+    "match": true
+  },
+  {
+    "sequence_id": "SEQ-c54f669a7de7",
+    "implementation": "python-tuf",
+    "family": "F1",
+    "transitions": [
+      "ROOT_ROTATE_SKIP",
+      "ROOT_ROTATE_INSUF_THRESHOLD"
+    ],
+    "predicted_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "observed_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "match": true
+  },
+  {
+    "sequence_id": "SEQ-c54f669a7de7",
+    "implementation": "go-tuf-v2",
+    "family": "F1",
+    "transitions": [
+      "ROOT_ROTATE_SKIP",
+      "ROOT_ROTATE_INSUF_THRESHOLD"
+    ],
+    "predicted_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "observed_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "match": true
+  },
+  {
+    "sequence_id": "SEQ-c54f669a7de7",
+    "implementation": "tuf-js",
+    "family": "F1",
+    "transitions": [
+      "ROOT_ROTATE_SKIP",
+      "ROOT_ROTATE_INSUF_THRESHOLD"
+    ],
+    "predicted_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "observed_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "match": true
+  },
+  {
+    "sequence_id": "SEQ-485a01d01247",
+    "implementation": "python-tuf",
+    "family": "F1",
+    "transitions": [
+      "ROOT_ROTATE_SKIP",
+      "ROOT_ROTATE_SKIP"
+    ],
+    "predicted_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "observed_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "match": true
+  },
+  {
+    "sequence_id": "SEQ-485a01d01247",
+    "implementation": "go-tuf-v2",
+    "family": "F1",
+    "transitions": [
+      "ROOT_ROTATE_SKIP",
+      "ROOT_ROTATE_SKIP"
+    ],
+    "predicted_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "observed_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "match": true
+  },
+  {
+    "sequence_id": "SEQ-485a01d01247",
+    "implementation": "tuf-js",
+    "family": "F1",
+    "transitions": [
+      "ROOT_ROTATE_SKIP",
+      "ROOT_ROTATE_SKIP"
+    ],
+    "predicted_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "observed_decisions": [
+      "REJECT",
+      "REJECT"
+    ],
+    "match": true
+  },
+  {
+    "sequence_id": "SEQ-76e4732eb492",
+    "implementation": "python-tuf",
+    "family": "F1",
+    "transitions": [
+      "ROOT_ROTATE_SKIP",
+      "ROOT_ROTATE_VALID"
+    ],
+    "predicted_decisions": [
+      "REJECT",
+      "ACCEPT"
+    ],
+    "observed_decisions": [
+      "REJECT",
+      "ACCEPT"
+    ],
+    "match": true
+  },
+  {
+    "sequence_id": "SEQ-76e4732eb492",
+    "implementation": "go-tuf-v2",
+    "family": "F1",
+    "transitions": [
+      "ROOT_ROTATE_SKIP",
+      "ROOT_ROTATE_VALID"
+    ],
+    "predicted_decisions": [
+      "REJECT",
+      "ACCEPT"
+    ],
+    "observed_decisions": [
+      "REJECT",
+      "ACCEPT"
+    ],
+    "match": true
+  },
+  {
+    "sequence_id": "SEQ-76e4732eb492",
+    "implementation": "tuf-js",
+    "family": "F1",
+    "transitions": [
+      "ROOT_ROTATE_SKIP",
+      "ROOT_ROTATE_VALID"
+    ],
+    "predicted_decisions": [
+      "REJECT",
+      "ACCEPT"
+    ],
+    "observed_decisions": [
+      "REJECT",
+      "ACCEPT"
+    ],
+    "match": true
+  },
+  {
+    "sequence_id": "SEQ-432dfe48109b",
+    "implementation": "python-tuf",
+    "family": "F1",
+    "transitions": [
+      "ROOT_ROTATE_VALID",
+      "METADATA_BY_REMOVED_KEY"
+    ],
+    "predicted_decisions": [
+      "ACCEPT",
+      "REJECT"
+    ],
+    "observed_decisions": [
+      "ACCEPT",
+      "REJECT"
+    ],
+    "match": true
+  },
+  {
+    "sequence_id": "SEQ-432dfe48109b",
+    "implementation": "go-tuf-v2",
+    "family": "F1",
+    "transitions": [
+      "ROOT_ROTATE_VALID",
+      "METADATA_BY_REMOVED_KEY"
+    ],
+    "predicted_decisions": [
+      "ACCEPT",
+      "REJECT"
+    ],
+    "observed_decisions": [
+      "ACCEPT",
+      "REJECT"
+    ],
+    "match": true
+  },
+  {
+    "sequence_id": "SEQ-432dfe48109b",
+    "implementation": "tuf-js",
+    "family": "F1",
+    "transitions": [
+      "ROOT_ROTATE_VALID",
+      "METADATA_BY_REMOVED_KEY"
+    ],
+    "predicted_decisions": [
+      "ACCEPT",
+      "REJECT"
+    ],
+    "observed_decisions": [
+      "ACCEPT",
+      "REJECT"
+    ],
+    "match": true
+  },
+  {
+    "sequence_id": "SEQ-d350599a9406",
+    "implementation": "python-tuf",
+    "family": "F1",
+    "transitions": [
+      "ROOT_ROTATE_VALID",
+      "ROOT_ROTATE_INSUF_THRESHOLD"
+    ],
+    "predicted_decisions": [
+      "ACCEPT",
+      "REJECT"
+    ],
+    "observed_decisions": [
+      "ACCEPT",
+      "REJECT"
+    ],
+    "match": true
+  },
+  {
+    "sequence_id": "SEQ-d350599a9406",
+    "implementation": "go-tuf-v2",
+    "family": "F1",
+    "transitions": [
+      "ROOT_ROTATE_VALID",
+      "ROOT_ROTATE_INSUF_THRESHOLD"
+    ],
+    "predicted_decisions": [
+      "ACCEPT",
+      "REJECT"
+    ],
+    "observed_decisions": [
+      "ACCEPT",
+      "REJECT"
+    ],
+    "match": true
+  },
+  {
+    "sequence_id": "SEQ-d350599a9406",
+    "implementation": "tuf-js",
+    "family": "F1",
+    "transitions": [
+      "ROOT_ROTATE_VALID",
+      "ROOT_ROTATE_INSUF_THRESHOLD"
+    ],
+    "predicted_decisions": [
+      "ACCEPT",
+      "REJECT"
+    ],
+    "observed_decisions": [
+      "ACCEPT",
+      "REJECT"
+    ],
+    "match": true
+  },
+  {
+    "sequence_id": "SEQ-ff5423d1bee1",
+    "implementation": "python-tuf",
+    "family": "F1",
+    "transitions": [
+      "ROOT_ROTATE_VALID",
+      "ROOT_ROTATE_SKIP"
+    ],
+    "predicted_decisions": [
+      "ACCEPT",
+      "REJECT"
+    ],
+    "observed_decisions": [
+      "ACCEPT",
+      "REJECT"
+    ],
+    "match": true
+  },
+  {
+    "sequence_id": "SEQ-ff5423d1bee1",
+    "implementation": "go-tuf-v2",
+    "family": "F1",
+    "transitions": [
+      "ROOT_ROTATE_VALID",
+      "ROOT_ROTATE_SKIP"
+    ],
+    "predicted_decisions": [
+      "ACCEPT",
+      "REJECT"
+    ],
+    "observed_decisions": [
+      "ACCEPT",
+      "REJECT"
+    ],
+    "match": true
+  },
+  {
+    "sequence_id": "SEQ-ff5423d1bee1",
+    "implementation": "tuf-js",
+    "family": "F1",
+    "transitions": [
+      "ROOT_ROTATE_VALID",
+      "ROOT_ROTATE_SKIP"
+    ],
+    "predicted_decisions": [
+      "ACCEPT",
+      "REJECT"
+    ],
+    "observed_decisions": [
+      "ACCEPT",
+      "REJECT"
+    ],
+    "match": true
+  },
+  {
+    "sequence_id": "SEQ-a37de9fc14af",
+    "implementation": "python-tuf",
+    "family": "F1",
+    "transitions": [
+      "ROOT_ROTATE_VALID",
+      "ROOT_ROTATE_VALID"
+    ],
+    "predicted_decisions": [
+      "ACCEPT",
+      "ACCEPT"
+    ],
+    "observed_decisions": [
+      "ACCEPT",
+      "ACCEPT"
+    ],
+    "match": true
+  },
+  {
+    "sequence_id": "SEQ-a37de9fc14af",
+    "implementation": "go-tuf-v2",
+    "family": "F1",
+    "transitions": [
+      "ROOT_ROTATE_VALID",
+      "ROOT_ROTATE_VALID"
+    ],
+    "predicted_decisions": [
+      "ACCEPT",
+      "ACCEPT"
+    ],
+    "observed_decisions": [
+      "ACCEPT",
+      "ACCEPT"
+    ],
+    "match": true
+  },
+  {
+    "sequence_id": "SEQ-a37de9fc14af",
+    "implementation": "tuf-js",
+    "family": "F1",
+    "transitions": [
+      "ROOT_ROTATE_VALID",
+      "ROOT_ROTATE_VALID"
+    ],
+    "predicted_decisions": [
+      "ACCEPT",
+      "ACCEPT"
+    ],
+    "observed_decisions": [
+      "ACCEPT",
+      "ACCEPT"
+    ],
+    "match": true
+  }
+]

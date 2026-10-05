@@ -1,0 +1,72 @@
+[
+  {
+    "pair": [
+      "TIMESTAMP_ADVANCE",
+      "TIMESTAMP_REPLAY"
+    ],
+    "engine_prediction": [
+      "ACCEPT",
+      "REJECT"
+    ],
+    "cve_based_expectation_for_legacy_client": [
+      "ACCEPT",
+      "ACCEPT"
+    ],
+    "verdict": "CVE_REPRODUCED",
+    "results": [
+      {
+        "implementation": "go-tuf-v2 (control, fixed, v2.4.2)",
+        "observed": [
+          "ACCEPT",
+          "REJECT"
+        ],
+        "execution_status": "COMPLETED",
+        "construction_notes": []
+      },
+      {
+        "implementation": "go-tuf-legacy-v0.2.0 (pre-fix)",
+        "observed": [
+          "ACCEPT",
+          "ACCEPT"
+        ],
+        "execution_status": "COMPLETED",
+        "construction_notes": []
+      }
+    ]
+  },
+  {
+    "pair": [
+      "SNAPSHOT_ADVANCE",
+      "SNAPSHOT_REPLAY"
+    ],
+    "engine_prediction": [
+      "ACCEPT",
+      "REJECT"
+    ],
+    "cve_based_expectation_for_legacy_client": [
+      "ACCEPT",
+      "ACCEPT"
+    ],
+    "verdict": "CVE_REPRODUCED",
+    "results": [
+      {
+        "implementation": "go-tuf-v2 (control, fixed, v2.4.2)",
+        "observed": [
+          "ACCEPT",
+          "REJECT"
+        ],
+        "execution_status": "COMPLETED",
+        "construction_notes": []
+      },
+      {
+        "implementation": "go-tuf-legacy-v0.2.0 (pre-fix)",
+        "observed": [
+          "ACCEPT",
+          "ACCEPT"
+        ],
+        "execution_status": "COMPLETED",
+        "construction_notes": []
+      }
+    ]
+  }
+]

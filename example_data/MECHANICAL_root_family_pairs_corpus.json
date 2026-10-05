@@ -1,0 +1,412 @@
+[
+  {
+    "sequence_id": "SEQ-1b71a71f8074",
+    "family": "F1",
+    "case_label": "MECH-ROOT_ROTATE_INSUF_THRESHOLD-ROOT_ROTATE_INSUF_THRESHOLD",
+    "origin": "TSTM_GENERATED",
+    "generation_method": "MECHANICAL",
+    "transitions": [
+      {
+        "step_index": 0,
+        "transition_type": "ROOT_ROTATE_INSUF_THRESHOLD",
+        "parameters": {},
+        "counts_toward_k": true
+      },
+      {
+        "step_index": 1,
+        "transition_type": "ROOT_ROTATE_INSUF_THRESHOLD",
+        "parameters": {},
+        "counts_toward_k": true
+      }
+    ],
+    "length": 2,
+    "oracle_properties": [],
+    "initial_state": {
+      "R_v": 1,
+      "R_K": [
+        "root_key_0"
+      ],
+      "R_t": 1,
+      "T_v": 1,
+      "S_v": 1,
+      "G_v": 1,
+      "D": "DELEGATION_ABSENT",
+      "E": "EXPIRATION_VALID"
+    },
+    "expected_state_trace": [],
+    "boundary_states": [],
+    "c2_pairs": [
+      "ROOT_ROTATE_INSUF_THRESHOLD->ROOT_ROTATE_INSUF_THRESHOLD"
+    ],
+    "c3_triples": []
+  },
+  {
+    "sequence_id": "SEQ-0cfa13942eca",
+    "family": "F1",
+    "case_label": "MECH-ROOT_ROTATE_INSUF_THRESHOLD-ROOT_ROTATE_SKIP",
+    "origin": "TSTM_GENERATED",
+    "generation_method": "MECHANICAL",
+    "transitions": [
+      {
+        "step_index": 0,
+        "transition_type": "ROOT_ROTATE_INSUF_THRESHOLD",
+        "parameters": {},
+        "counts_toward_k": true
+      },
+      {
+        "step_index": 1,
+        "transition_type": "ROOT_ROTATE_SKIP",
+        "parameters": {},
+        "counts_toward_k": true
+      }
+    ],
+    "length": 2,
+    "oracle_properties": [],
+    "initial_state": {
+      "R_v": 1,
+      "R_K": [
+        "root_key_0"
+      ],
+      "R_t": 1,
+      "T_v": 1,
+      "S_v": 1,
+      "G_v": 1,
+      "D": "DELEGATION_ABSENT",
+      "E": "EXPIRATION_VALID"
+    },
+    "expected_state_trace": [],
+    "boundary_states": [],
+    "c2_pairs": [
+      "ROOT_ROTATE_INSUF_THRESHOLD->ROOT_ROTATE_SKIP"
+    ],
+    "c3_triples": []
+  },
+  {
+    "sequence_id": "SEQ-1c8bd14061b4",
+    "family": "F1",
+    "case_label": "MECH-ROOT_ROTATE_INSUF_THRESHOLD-ROOT_ROTATE_VALID",
+    "origin": "TSTM_GENERATED",
+    "generation_method": "MECHANICAL",
+    "transitions": [
+      {
+        "step_index": 0,
+        "transition_type": "ROOT_ROTATE_INSUF_THRESHOLD",
+        "parameters": {},
+        "counts_toward_k": true
+      },
+      {
+        "step_index": 1,
+        "transition_type": "ROOT_ROTATE_VALID",
+        "parameters": {},
+        "counts_toward_k": true
+      }
+    ],
+    "length": 2,
+    "oracle_properties": [],
+    "initial_state": {
+      "R_v": 1,
+      "R_K": [
+        "root_key_0"
+      ],
+      "R_t": 1,
+      "T_v": 1,
+      "S_v": 1,
+      "G_v": 1,
+      "D": "DELEGATION_ABSENT",
+      "E": "EXPIRATION_VALID"
+    },
+    "expected_state_trace": [],
+    "boundary_states": [],
+    "c2_pairs": [
+      "ROOT_ROTATE_INSUF_THRESHOLD->ROOT_ROTATE_VALID"
+    ],
+    "c3_triples": []
+  },
+  {
+    "sequence_id": "SEQ-c54f669a7de7",
+    "family": "F1",
+    "case_label": "MECH-ROOT_ROTATE_SKIP-ROOT_ROTATE_INSUF_THRESHOLD",
+    "origin": "TSTM_GENERATED",
+    "generation_method": "MECHANICAL",
+    "transitions": [
+      {
+        "step_index": 0,
+        "transition_type": "ROOT_ROTATE_SKIP",
+        "parameters": {},
+        "counts_toward_k": true
+      },
+      {
+        "step_index": 1,
+        "transition_type": "ROOT_ROTATE_INSUF_THRESHOLD",
+        "parameters": {},
+        "counts_toward_k": true
+      }
+    ],
+    "length": 2,
+    "oracle_properties": [],
+    "initial_state": {
+      "R_v": 1,
+      "R_K": [
+        "root_key_0"
+      ],
+      "R_t": 1,
+      "T_v": 1,
+      "S_v": 1,
+      "G_v": 1,
+      "D": "DELEGATION_ABSENT",
+      "E": "EXPIRATION_VALID"
+    },
+    "expected_state_trace": [],
+    "boundary_states": [],
+    "c2_pairs": [
+      "ROOT_ROTATE_SKIP->ROOT_ROTATE_INSUF_THRESHOLD"
+    ],
+    "c3_triples": []
+  },
+  {
+    "sequence_id": "SEQ-485a01d01247",
+    "family": "F1",
+    "case_label": "MECH-ROOT_ROTATE_SKIP-ROOT_ROTATE_SKIP",
+    "origin": "TSTM_GENERATED",
+    "generation_method": "MECHANICAL",
+    "transitions": [
+      {
+        "step_index": 0,
+        "transition_type": "ROOT_ROTATE_SKIP",
+        "parameters": {},
+        "counts_toward_k": true
+      },
+      {
+        "step_index": 1,
+        "transition_type": "ROOT_ROTATE_SKIP",
+        "parameters": {},
+        "counts_toward_k": true
+      }
+    ],
+    "length": 2,
+    "oracle_properties": [],
+    "initial_state": {
+      "R_v": 1,
+      "R_K": [
+        "root_key_0"
+      ],
+      "R_t": 1,
+      "T_v": 1,
+      "S_v": 1,
+      "G_v": 1,
+      "D": "DELEGATION_ABSENT",
+      "E": "EXPIRATION_VALID"
+    },
+    "expected_state_trace": [],
+    "boundary_states": [],
+    "c2_pairs": [
+      "ROOT_ROTATE_SKIP->ROOT_ROTATE_SKIP"
+    ],
+    "c3_triples": []
+  },
+  {
+    "sequence_id": "SEQ-76e4732eb492",
+    "family": "F1",
+    "case_label": "MECH-ROOT_ROTATE_SKIP-ROOT_ROTATE_VALID",
+    "origin": "TSTM_GENERATED",
+    "generation_method": "MECHANICAL",
+    "transitions": [
+      {
+        "step_index": 0,
+        "transition_type": "ROOT_ROTATE_SKIP",
+        "parameters": {},
+        "counts_toward_k": true
+      },
+      {
+        "step_index": 1,
+        "transition_type": "ROOT_ROTATE_VALID",
+        "parameters": {},
+        "counts_toward_k": true
+      }
+    ],
+    "length": 2,
+    "oracle_properties": [],
+    "initial_state": {
+      "R_v": 1,
+      "R_K": [
+        "root_key_0"
+      ],
+      "R_t": 1,
+      "T_v": 1,
+      "S_v": 1,
+      "G_v": 1,
+      "D": "DELEGATION_ABSENT",
+      "E": "EXPIRATION_VALID"
+    },
+    "expected_state_trace": [],
+    "boundary_states": [],
+    "c2_pairs": [
+      "ROOT_ROTATE_SKIP->ROOT_ROTATE_VALID"
+    ],
+    "c3_triples": []
+  },
+  {
+    "sequence_id": "SEQ-432dfe48109b",
+    "family": "F1",
+    "case_label": "MECH-ROOT_ROTATE_VALID-METADATA_BY_REMOVED_KEY",
+    "origin": "TSTM_GENERATED",
+    "generation_method": "MECHANICAL",
+    "transitions": [
+      {
+        "step_index": 0,
+        "transition_type": "ROOT_ROTATE_VALID",
+        "parameters": {},
+        "counts_toward_k": true
+      },
+      {
+        "step_index": 1,
+        "transition_type": "METADATA_BY_REMOVED_KEY",
+        "parameters": {},
+        "counts_toward_k": true
+      }
+    ],
+    "length": 2,
+    "oracle_properties": [],
+    "initial_state": {
+      "R_v": 1,
+      "R_K": [
+        "root_key_0"
+      ],
+      "R_t": 1,
+      "T_v": 1,
+      "S_v": 1,
+      "G_v": 1,
+      "D": "DELEGATION_ABSENT",
+      "E": "EXPIRATION_VALID"
+    },
+    "expected_state_trace": [],
+    "boundary_states": [],
+    "c2_pairs": [
+      "ROOT_ROTATE_VALID->METADATA_BY_REMOVED_KEY"
+    ],
+    "c3_triples": []
+  },
+  {
+    "sequence_id": "SEQ-d350599a9406",
+    "family": "F1",
+    "case_label": "MECH-ROOT_ROTATE_VALID-ROOT_ROTATE_INSUF_THRESHOLD",
+    "origin": "TSTM_GENERATED",
+    "generation_method": "MECHANICAL",
+    "transitions": [
+      {
+        "step_index": 0,
+        "transition_type": "ROOT_ROTATE_VALID",
+        "parameters": {},
+        "counts_toward_k": true
+      },
+      {
+        "step_index": 1,
+        "transition_type": "ROOT_ROTATE_INSUF_THRESHOLD",
+        "parameters": {},
+        "counts_toward_k": true
+      }
+    ],
+    "length": 2,
+    "oracle_properties": [],
+    "initial_state": {
+      "R_v": 1,
+      "R_K": [
+        "root_key_0"
+      ],
+      "R_t": 1,
+      "T_v": 1,
+      "S_v": 1,
+      "G_v": 1,
+      "D": "DELEGATION_ABSENT",
+      "E": "EXPIRATION_VALID"
+    },
+    "expected_state_trace": [],
+    "boundary_states": [],
+    "c2_pairs": [
+      "ROOT_ROTATE_VALID->ROOT_ROTATE_INSUF_THRESHOLD"
+    ],
+    "c3_triples": []
+  },
+  {
+    "sequence_id": "SEQ-ff5423d1bee1",
+    "family": "F1",
+    "case_label": "MECH-ROOT_ROTATE_VALID-ROOT_ROTATE_SKIP",
+    "origin": "TSTM_GENERATED",
+    "generation_method": "MECHANICAL",
+    "transitions": [
+      {
+        "step_index": 0,
+        "transition_type": "ROOT_ROTATE_VALID",
+        "parameters": {},
+        "counts_toward_k": true
+      },
+      {
+        "step_index": 1,
+        "transition_type": "ROOT_ROTATE_SKIP",
+        "parameters": {},
+        "counts_toward_k": true
+      }
+    ],
+    "length": 2,
+    "oracle_properties": [],
+    "initial_state": {
+      "R_v": 1,
+      "R_K": [
+        "root_key_0"
+      ],
+      "R_t": 1,
+      "T_v": 1,
+      "S_v": 1,
+      "G_v": 1,
+      "D": "DELEGATION_ABSENT",
+      "E": "EXPIRATION_VALID"
+    },
+    "expected_state_trace": [],
+    "boundary_states": [],
+    "c2_pairs": [
+      "ROOT_ROTATE_VALID->ROOT_ROTATE_SKIP"
+    ],
+    "c3_triples": []
+  },
+  {
+    "sequence_id": "SEQ-a37de9fc14af",
+    "family": "F1",
+    "case_label": "MECH-ROOT_ROTATE_VALID-ROOT_ROTATE_VALID",
+    "origin": "TSTM_GENERATED",
+    "generation_method": "MECHANICAL",
+    "transitions": [
+      {
+        "step_index": 0,
+        "transition_type": "ROOT_ROTATE_VALID",
+        "parameters": {},
+        "counts_toward_k": true
+      },
+      {
+        "step_index": 1,
+        "transition_type": "ROOT_ROTATE_VALID",
+        "parameters": {},
+        "counts_toward_k": true
+      }
+    ],
+    "length": 2,
+    "oracle_properties": [],
+    "initial_state": {
+      "R_v": 1,
+      "R_K": [
+        "root_key_0"
+      ],
+      "R_t": 1,
+      "T_v": 1,
+      "S_v": 1,
+      "G_v": 1,
+      "D": "DELEGATION_ABSENT",
+      "E": "EXPIRATION_VALID"
+    },
+    "expected_state_trace": [],
+    "boundary_states": [],
+    "c2_pairs": [
+      "ROOT_ROTATE_VALID->ROOT_ROTATE_VALID"
+    ],
+    "c3_triples": []
+  }
+]
